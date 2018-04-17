@@ -1,1 +1,1 @@
-# react-native-firefix
+# react-native-firefox
