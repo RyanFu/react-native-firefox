@@ -18,12 +18,10 @@
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */; };
@@ -38,6 +36,400 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		DA56F6642086DA46004A8F78 /* Licenses.html in Resources */ = {isa = PBXBuildFile; fileRef = DA56F40C2086DA45004A8F78 /* Licenses.html */; };
+		DA56F6652086DA46004A8F78 /* AllFramesAtDocumentEnd.js in Resources */ = {isa = PBXBuildFile; fileRef = DA56F40D2086DA45004A8F78 /* AllFramesAtDocumentEnd.js */; };
+		DA56F6662086DA46004A8F78 /* AllFramesAtDocumentStart.js in Resources */ = {isa = PBXBuildFile; fileRef = DA56F40E2086DA45004A8F78 /* AllFramesAtDocumentStart.js */; };
+		DA56F6672086DA46004A8F78 /* CertError.css in Resources */ = {isa = PBXBuildFile; fileRef = DA56F40F2086DA45004A8F78 /* CertError.css */; };
+		DA56F6682086DA46004A8F78 /* CertError.html in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4102086DA45004A8F78 /* CertError.html */; };
+		DA56F6692086DA46004A8F78 /* CharisSILB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4122086DA45004A8F78 /* CharisSILB.ttf */; };
+		DA56F66A2086DA46004A8F78 /* CharisSILBI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4132086DA45004A8F78 /* CharisSILBI.ttf */; };
+		DA56F66B2086DA46004A8F78 /* CharisSILI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4142086DA45004A8F78 /* CharisSILI.ttf */; };
+		DA56F66C2086DA46004A8F78 /* CharisSILR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4152086DA45004A8F78 /* CharisSILR.ttf */; };
+		DA56F66D2086DA46004A8F78 /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4162086DA45004A8F78 /* FiraSans-Bold.ttf */; };
+		DA56F66E2086DA46004A8F78 /* FiraSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4172086DA45004A8F78 /* FiraSans-BoldItalic.ttf */; };
+		DA56F66F2086DA46004A8F78 /* FiraSans-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4182086DA45004A8F78 /* FiraSans-Book.ttf */; };
+		DA56F6702086DA46004A8F78 /* FiraSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4192086DA45004A8F78 /* FiraSans-Italic.ttf */; };
+		DA56F6712086DA46004A8F78 /* FiraSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F41A2086DA45004A8F78 /* FiraSans-Light.ttf */; };
+		DA56F6722086DA46004A8F78 /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F41B2086DA45004A8F78 /* FiraSans-Medium.ttf */; };
+		DA56F6732086DA46004A8F78 /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F41C2086DA45004A8F78 /* FiraSans-Regular.ttf */; };
+		DA56F6742086DA46004A8F78 /* FiraSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F41D2086DA45004A8F78 /* FiraSans-SemiBold.ttf */; };
+		DA56F6752086DA46004A8F78 /* FiraSans-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA56F41E2086DA45004A8F78 /* FiraSans-UltraLight.ttf */; };
+		DA56F6762086DA46004A8F78 /* FxASignIn.js in Resources */ = {isa = PBXBuildFile; fileRef = DA56F41F2086DA45004A8F78 /* FxASignIn.js */; };
+		DA56F6772086DA46004A8F78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4202086DA45004A8F78 /* Images.xcassets */; };
+		DA56F6782086DA46004A8F78 /* MainFrameAtDocumentEnd.js in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4212086DA45004A8F78 /* MainFrameAtDocumentEnd.js */; };
+		DA56F6792086DA46004A8F78 /* MainFrameAtDocumentStart.js in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4222086DA45004A8F78 /* MainFrameAtDocumentStart.js */; };
+		DA56F67A2086DA46004A8F78 /* NetError.css in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4232086DA45004A8F78 /* NetError.css */; };
+		DA56F67B2086DA46004A8F78 /* NetError.html in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4242086DA45004A8F78 /* NetError.html */; };
+		DA56F67D2086DA46004A8F78 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4272086DA45004A8F78 /* README.md */; };
+		DA56F67E2086DA46004A8F78 /* run_tests.py in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4282086DA45004A8F78 /* run_tests.py */; };
+		DA56F67F2086DA46004A8F78 /* scrape_plugins.py in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4292086DA45004A8F78 /* scrape_plugins.py */; };
+		DA56F6802086DA46004A8F78 /* baidu.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F42B2086DA45004A8F78 /* baidu.xml */; };
+		DA56F6812086DA46004A8F78 /* bing.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F42C2086DA45004A8F78 /* bing.xml */; };
+		DA56F6822086DA46004A8F78 /* duckduckgo.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F42D2086DA45004A8F78 /* duckduckgo.xml */; };
+		DA56F6832086DA46004A8F78 /* qwant.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F42E2086DA45004A8F78 /* qwant.xml */; };
+		DA56F6842086DA46004A8F78 /* yahoo.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F42F2086DA45004A8F78 /* yahoo.xml */; };
+		DA56F6852086DA46004A8F78 /* amazon-au.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4312086DA45004A8F78 /* amazon-au.xml */; };
+		DA56F6862086DA46004A8F78 /* amazon-br.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4322086DA45004A8F78 /* amazon-br.xml */; };
+		DA56F6872086DA46004A8F78 /* amazon-ca.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4332086DA45004A8F78 /* amazon-ca.xml */; };
+		DA56F6882086DA46004A8F78 /* amazon-co-uk.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4342086DA45004A8F78 /* amazon-co-uk.xml */; };
+		DA56F6892086DA46004A8F78 /* amazon-de.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4352086DA45004A8F78 /* amazon-de.xml */; };
+		DA56F68A2086DA46004A8F78 /* amazon-fr.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4362086DA45004A8F78 /* amazon-fr.xml */; };
+		DA56F68B2086DA46004A8F78 /* amazon-in.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4372086DA45004A8F78 /* amazon-in.xml */; };
+		DA56F68C2086DA46004A8F78 /* amazon-jp.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4382086DA45004A8F78 /* amazon-jp.xml */; };
+		DA56F68D2086DA46004A8F78 /* amazon-mx.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4392086DA45004A8F78 /* amazon-mx.xml */; };
+		DA56F68E2086DA46004A8F78 /* amazon-nl.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F43A2086DA45004A8F78 /* amazon-nl.xml */; };
+		DA56F68F2086DA46004A8F78 /* amazondotcom.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F43B2086DA45004A8F78 /* amazondotcom.xml */; };
+		DA56F6902086DA46004A8F78 /* azerdict.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F43C2086DA45004A8F78 /* azerdict.xml */; };
+		DA56F6912086DA46004A8F78 /* azet-sk.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F43D2086DA45004A8F78 /* azet-sk.xml */; };
+		DA56F6922086DA46004A8F78 /* baidu.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F43E2086DA45004A8F78 /* baidu.xml */; };
+		DA56F6932086DA46004A8F78 /* bing.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F43F2086DA45004A8F78 /* bing.xml */; };
+		DA56F6942086DA46004A8F78 /* bolcom-fy-NL.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4402086DA45004A8F78 /* bolcom-fy-NL.xml */; };
+		DA56F6952086DA46004A8F78 /* bolcom-nl.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4412086DA45004A8F78 /* bolcom-nl.xml */; };
+		DA56F6962086DA46004A8F78 /* ceneje.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4422086DA45004A8F78 /* ceneje.xml */; };
+		DA56F6972086DA46004A8F78 /* coccoc.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4432086DA45004A8F78 /* coccoc.xml */; };
+		DA56F6982086DA46004A8F78 /* danawa-kr.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4442086DA45004A8F78 /* danawa-kr.xml */; };
+		DA56F6992086DA46004A8F78 /* daum-kr.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4452086DA45004A8F78 /* daum-kr.xml */; };
+		DA56F69A2086DA46004A8F78 /* ddg.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4462086DA45004A8F78 /* ddg.xml */; };
+		DA56F69B2086DA46004A8F78 /* diec2.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4472086DA45004A8F78 /* diec2.xml */; };
+		DA56F69C2086DA46004A8F78 /* drae.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4482086DA45004A8F78 /* drae.xml */; };
+		DA56F69D2086DA46004A8F78 /* duckduckgo.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4492086DA45004A8F78 /* duckduckgo.xml */; };
+		DA56F69E2086DA46004A8F78 /* elebila.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F44A2086DA45004A8F78 /* elebila.xml */; };
+		DA56F69F2086DA46004A8F78 /* faclair-beag.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F44B2086DA45004A8F78 /* faclair-beag.xml */; };
+		DA56F6A02086DA46004A8F78 /* google-2018.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F44C2086DA45004A8F78 /* google-2018.xml */; };
+		DA56F6A12086DA46004A8F78 /* google-nocodes.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F44D2086DA45004A8F78 /* google-nocodes.xml */; };
+		DA56F6A22086DA46004A8F78 /* google.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F44E2086DA45004A8F78 /* google.xml */; };
+		DA56F6A32086DA46004A8F78 /* gulesider-mobile-NO.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F44F2086DA45004A8F78 /* gulesider-mobile-NO.xml */; };
+		DA56F6A42086DA46004A8F78 /* heureka-cz.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4502086DA45004A8F78 /* heureka-cz.xml */; };
+		DA56F6A52086DA46004A8F78 /* leit-is.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4512086DA45004A8F78 /* leit-is.xml */; };
+		DA56F6A62086DA46004A8F78 /* leo_ende_de.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4522086DA45004A8F78 /* leo_ende_de.xml */; };
+		DA56F6A72086DA46004A8F78 /* list-am.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4532086DA45004A8F78 /* list-am.xml */; };
+		DA56F6A82086DA46004A8F78 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4542086DA45004A8F78 /* list.json */; };
+		DA56F6A92086DA46004A8F78 /* mapy-cz.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4552086DA45004A8F78 /* mapy-cz.xml */; };
+		DA56F6AA2086DA46004A8F78 /* mercadolibre-ar.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4562086DA45004A8F78 /* mercadolibre-ar.xml */; };
+		DA56F6AB2086DA46004A8F78 /* mercadolibre-cl.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4572086DA45004A8F78 /* mercadolibre-cl.xml */; };
+		DA56F6AC2086DA46004A8F78 /* mercadolibre-mx.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4582086DA45004A8F78 /* mercadolibre-mx.xml */; };
+		DA56F6AD2086DA46004A8F78 /* naver-kr.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4592086DA45004A8F78 /* naver-kr.xml */; };
+		DA56F6AE2086DA46004A8F78 /* odpiralni.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F45A2086DA45004A8F78 /* odpiralni.xml */; };
+		DA56F6AF2086DA46004A8F78 /* pledarigrond.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F45B2086DA45004A8F78 /* pledarigrond.xml */; };
+		DA56F6B02086DA46004A8F78 /* prisjakt-sv-SE.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F45C2086DA45004A8F78 /* prisjakt-sv-SE.xml */; };
+		DA56F6B12086DA46004A8F78 /* qwant.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F45D2086DA45004A8F78 /* qwant.xml */; };
+		DA56F6B22086DA46004A8F78 /* rediff.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F45E2086DA45004A8F78 /* rediff.xml */; };
+		DA56F6B32086DA46004A8F78 /* reta-vortaro.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F45F2086DA45004A8F78 /* reta-vortaro.xml */; };
+		DA56F6B42086DA46004A8F78 /* salidzinilv.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4602086DA45004A8F78 /* salidzinilv.xml */; };
+		DA56F6B52086DA46004A8F78 /* seznam-cz.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4612086DA45004A8F78 /* seznam-cz.xml */; };
+		DA56F6B62086DA46004A8F78 /* skroutz.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4622086DA45004A8F78 /* skroutz.xml */; };
+		DA56F6B72086DA46004A8F78 /* slovnik-sk.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4632086DA45004A8F78 /* slovnik-sk.xml */; };
+		DA56F6B82086DA46004A8F78 /* sslv.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4642086DA45004A8F78 /* sslv.xml */; };
+		DA56F6B92086DA46004A8F78 /* sztaki-en-hu.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4652086DA45004A8F78 /* sztaki-en-hu.xml */; };
+		DA56F6BA2086DA46004A8F78 /* taobao.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4662086DA45004A8F78 /* taobao.xml */; };
+		DA56F6BB2086DA46004A8F78 /* tearma.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4672086DA45004A8F78 /* tearma.xml */; };
+		DA56F6BC2086DA46004A8F78 /* twitter-ja.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4682086DA45004A8F78 /* twitter-ja.xml */; };
+		DA56F6BD2086DA46004A8F78 /* twitter.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4692086DA45004A8F78 /* twitter.xml */; };
+		DA56F6BE2086DA46004A8F78 /* vatera.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F46A2086DA45004A8F78 /* vatera.xml */; };
+		DA56F6BF2086DA46004A8F78 /* wikipedia-an.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F46B2086DA45004A8F78 /* wikipedia-an.xml */; };
+		DA56F6C02086DA46004A8F78 /* wikipedia-ar.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F46C2086DA45004A8F78 /* wikipedia-ar.xml */; };
+		DA56F6C12086DA46004A8F78 /* wikipedia-as.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F46D2086DA45004A8F78 /* wikipedia-as.xml */; };
+		DA56F6C22086DA46004A8F78 /* wikipedia-ast.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F46E2086DA45004A8F78 /* wikipedia-ast.xml */; };
+		DA56F6C32086DA46004A8F78 /* wikipedia-az.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F46F2086DA45004A8F78 /* wikipedia-az.xml */; };
+		DA56F6C42086DA46004A8F78 /* wikipedia-be.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4702086DA45004A8F78 /* wikipedia-be.xml */; };
+		DA56F6C52086DA46004A8F78 /* wikipedia-bg.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4712086DA45004A8F78 /* wikipedia-bg.xml */; };
+		DA56F6C62086DA46004A8F78 /* wikipedia-bn.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4722086DA45004A8F78 /* wikipedia-bn.xml */; };
+		DA56F6C72086DA46004A8F78 /* wikipedia-br.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4732086DA45004A8F78 /* wikipedia-br.xml */; };
+		DA56F6C82086DA46004A8F78 /* wikipedia-bs.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4742086DA45004A8F78 /* wikipedia-bs.xml */; };
+		DA56F6C92086DA46004A8F78 /* wikipedia-ca.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4752086DA45004A8F78 /* wikipedia-ca.xml */; };
+		DA56F6CA2086DA46004A8F78 /* wikipedia-cy.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4762086DA45004A8F78 /* wikipedia-cy.xml */; };
+		DA56F6CB2086DA46004A8F78 /* wikipedia-cz.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4772086DA45004A8F78 /* wikipedia-cz.xml */; };
+		DA56F6CC2086DA46004A8F78 /* wikipedia-da.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4782086DA45004A8F78 /* wikipedia-da.xml */; };
+		DA56F6CD2086DA46004A8F78 /* wikipedia-de.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4792086DA45004A8F78 /* wikipedia-de.xml */; };
+		DA56F6CE2086DA46004A8F78 /* wikipedia-dsb.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F47A2086DA45004A8F78 /* wikipedia-dsb.xml */; };
+		DA56F6CF2086DA46004A8F78 /* wikipedia-el.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F47B2086DA45004A8F78 /* wikipedia-el.xml */; };
+		DA56F6D02086DA46004A8F78 /* wikipedia-eo.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F47C2086DA45004A8F78 /* wikipedia-eo.xml */; };
+		DA56F6D12086DA46004A8F78 /* wikipedia-es.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F47D2086DA45004A8F78 /* wikipedia-es.xml */; };
+		DA56F6D22086DA46004A8F78 /* wikipedia-et.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F47E2086DA45004A8F78 /* wikipedia-et.xml */; };
+		DA56F6D32086DA46004A8F78 /* wikipedia-eu.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F47F2086DA45004A8F78 /* wikipedia-eu.xml */; };
+		DA56F6D42086DA46004A8F78 /* wikipedia-fa.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4802086DA45004A8F78 /* wikipedia-fa.xml */; };
+		DA56F6D52086DA46004A8F78 /* wikipedia-fi.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4812086DA45004A8F78 /* wikipedia-fi.xml */; };
+		DA56F6D62086DA46004A8F78 /* wikipedia-fr.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4822086DA45004A8F78 /* wikipedia-fr.xml */; };
+		DA56F6D72086DA46004A8F78 /* wikipedia-fy-NL.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4832086DA45004A8F78 /* wikipedia-fy-NL.xml */; };
+		DA56F6D82086DA46004A8F78 /* wikipedia-ga-IE.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4842086DA45004A8F78 /* wikipedia-ga-IE.xml */; };
+		DA56F6D92086DA46004A8F78 /* wikipedia-gd.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4852086DA45004A8F78 /* wikipedia-gd.xml */; };
+		DA56F6DA2086DA46004A8F78 /* wikipedia-gl.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4862086DA45004A8F78 /* wikipedia-gl.xml */; };
+		DA56F6DB2086DA46004A8F78 /* wikipedia-gn.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4872086DA45004A8F78 /* wikipedia-gn.xml */; };
+		DA56F6DC2086DA46004A8F78 /* wikipedia-gu.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4882086DA45004A8F78 /* wikipedia-gu.xml */; };
+		DA56F6DD2086DA46004A8F78 /* wikipedia-he.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4892086DA45004A8F78 /* wikipedia-he.xml */; };
+		DA56F6DE2086DA46004A8F78 /* wikipedia-hi.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F48A2086DA45004A8F78 /* wikipedia-hi.xml */; };
+		DA56F6DF2086DA46004A8F78 /* wikipedia-hr.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F48B2086DA45004A8F78 /* wikipedia-hr.xml */; };
+		DA56F6E02086DA46004A8F78 /* wikipedia-hsb.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F48C2086DA45004A8F78 /* wikipedia-hsb.xml */; };
+		DA56F6E12086DA46004A8F78 /* wikipedia-hu.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F48D2086DA45004A8F78 /* wikipedia-hu.xml */; };
+		DA56F6E22086DA46004A8F78 /* wikipedia-hy-AM.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F48E2086DA45004A8F78 /* wikipedia-hy-AM.xml */; };
+		DA56F6E32086DA46004A8F78 /* wikipedia-ia.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F48F2086DA45004A8F78 /* wikipedia-ia.xml */; };
+		DA56F6E42086DA46004A8F78 /* wikipedia-id.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4902086DA45004A8F78 /* wikipedia-id.xml */; };
+		DA56F6E52086DA46004A8F78 /* wikipedia-is.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4912086DA45004A8F78 /* wikipedia-is.xml */; };
+		DA56F6E62086DA46004A8F78 /* wikipedia-it.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4922086DA45004A8F78 /* wikipedia-it.xml */; };
+		DA56F6E72086DA46004A8F78 /* wikipedia-ja.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4932086DA45004A8F78 /* wikipedia-ja.xml */; };
+		DA56F6E82086DA46004A8F78 /* wikipedia-ka.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4942086DA45004A8F78 /* wikipedia-ka.xml */; };
+		DA56F6E92086DA46004A8F78 /* wikipedia-kab.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4952086DA45004A8F78 /* wikipedia-kab.xml */; };
+		DA56F6EA2086DA46004A8F78 /* wikipedia-kk.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4962086DA45004A8F78 /* wikipedia-kk.xml */; };
+		DA56F6EB2086DA46004A8F78 /* wikipedia-km.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4972086DA45004A8F78 /* wikipedia-km.xml */; };
+		DA56F6EC2086DA46004A8F78 /* wikipedia-kn.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4982086DA45004A8F78 /* wikipedia-kn.xml */; };
+		DA56F6ED2086DA46004A8F78 /* wikipedia-lo.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4992086DA45004A8F78 /* wikipedia-lo.xml */; };
+		DA56F6EE2086DA46004A8F78 /* wikipedia-lt.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F49A2086DA45004A8F78 /* wikipedia-lt.xml */; };
+		DA56F6EF2086DA46004A8F78 /* wikipedia-ltg.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F49B2086DA45004A8F78 /* wikipedia-ltg.xml */; };
+		DA56F6F02086DA46004A8F78 /* wikipedia-lv.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F49C2086DA45004A8F78 /* wikipedia-lv.xml */; };
+		DA56F6F12086DA46004A8F78 /* wikipedia-ml.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F49D2086DA45004A8F78 /* wikipedia-ml.xml */; };
+		DA56F6F22086DA46004A8F78 /* wikipedia-mr.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F49E2086DA45004A8F78 /* wikipedia-mr.xml */; };
+		DA56F6F32086DA46004A8F78 /* wikipedia-ms.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F49F2086DA45004A8F78 /* wikipedia-ms.xml */; };
+		DA56F6F42086DA46004A8F78 /* wikipedia-my.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4A02086DA45004A8F78 /* wikipedia-my.xml */; };
+		DA56F6F52086DA46004A8F78 /* wikipedia-ne.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4A12086DA45004A8F78 /* wikipedia-ne.xml */; };
+		DA56F6F62086DA46004A8F78 /* wikipedia-nl.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4A22086DA45004A8F78 /* wikipedia-nl.xml */; };
+		DA56F6F72086DA46004A8F78 /* wikipedia-NN.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4A32086DA45004A8F78 /* wikipedia-NN.xml */; };
+		DA56F6F82086DA46004A8F78 /* wikipedia-NO.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4A42086DA45004A8F78 /* wikipedia-NO.xml */; };
+		DA56F6F92086DA46004A8F78 /* wikipedia-oc.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4A52086DA45004A8F78 /* wikipedia-oc.xml */; };
+		DA56F6FA2086DA46004A8F78 /* wikipedia-or.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4A62086DA45004A8F78 /* wikipedia-or.xml */; };
+		DA56F6FB2086DA46004A8F78 /* wikipedia-pa.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4A72086DA45004A8F78 /* wikipedia-pa.xml */; };
+		DA56F6FC2086DA46004A8F78 /* wikipedia-pl.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4A82086DA45004A8F78 /* wikipedia-pl.xml */; };
+		DA56F6FD2086DA46004A8F78 /* wikipedia-pt.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4A92086DA45004A8F78 /* wikipedia-pt.xml */; };
+		DA56F6FE2086DA46004A8F78 /* wikipedia-rm.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4AA2086DA45004A8F78 /* wikipedia-rm.xml */; };
+		DA56F6FF2086DA46004A8F78 /* wikipedia-ro.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4AB2086DA45004A8F78 /* wikipedia-ro.xml */; };
+		DA56F7002086DA46004A8F78 /* wikipedia-ru.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4AC2086DA45004A8F78 /* wikipedia-ru.xml */; };
+		DA56F7012086DA46004A8F78 /* wikipedia-sk.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4AD2086DA45004A8F78 /* wikipedia-sk.xml */; };
+		DA56F7022086DA46004A8F78 /* wikipedia-sl.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4AE2086DA45004A8F78 /* wikipedia-sl.xml */; };
+		DA56F7032086DA46004A8F78 /* wikipedia-sq.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4AF2086DA45004A8F78 /* wikipedia-sq.xml */; };
+		DA56F7042086DA46004A8F78 /* wikipedia-sr.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4B02086DA45004A8F78 /* wikipedia-sr.xml */; };
+		DA56F7052086DA46004A8F78 /* wikipedia-sv-SE.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4B12086DA45004A8F78 /* wikipedia-sv-SE.xml */; };
+		DA56F7062086DA46004A8F78 /* wikipedia-ta.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4B22086DA45004A8F78 /* wikipedia-ta.xml */; };
+		DA56F7072086DA46004A8F78 /* wikipedia-te.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4B32086DA45004A8F78 /* wikipedia-te.xml */; };
+		DA56F7082086DA46004A8F78 /* wikipedia-th.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4B42086DA45004A8F78 /* wikipedia-th.xml */; };
+		DA56F7092086DA46004A8F78 /* wikipedia-tr.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4B52086DA45004A8F78 /* wikipedia-tr.xml */; };
+		DA56F70A2086DA46004A8F78 /* wikipedia-uk.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4B62086DA45004A8F78 /* wikipedia-uk.xml */; };
+		DA56F70B2086DA46004A8F78 /* wikipedia-ur.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4B72086DA45004A8F78 /* wikipedia-ur.xml */; };
+		DA56F70C2086DA46004A8F78 /* wikipedia-uz.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4B82086DA45004A8F78 /* wikipedia-uz.xml */; };
+		DA56F70D2086DA46004A8F78 /* wikipedia-vi.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4B92086DA45004A8F78 /* wikipedia-vi.xml */; };
+		DA56F70E2086DA46004A8F78 /* wikipedia-wo.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4BA2086DA45004A8F78 /* wikipedia-wo.xml */; };
+		DA56F70F2086DA46004A8F78 /* wikipedia-zh-CN.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4BB2086DA45004A8F78 /* wikipedia-zh-CN.xml */; };
+		DA56F7102086DA46004A8F78 /* wikipedia-zh-TW.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4BC2086DA45004A8F78 /* wikipedia-zh-TW.xml */; };
+		DA56F7112086DA46004A8F78 /* wikipedia.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4BD2086DA45004A8F78 /* wikipedia.xml */; };
+		DA56F7122086DA46004A8F78 /* wiktionary-kn.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4BE2086DA45004A8F78 /* wiktionary-kn.xml */; };
+		DA56F7132086DA46004A8F78 /* wiktionary-oc.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4BF2086DA45004A8F78 /* wiktionary-oc.xml */; };
+		DA56F7142086DA46004A8F78 /* wiktionary-or.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4C02086DA45004A8F78 /* wiktionary-or.xml */; };
+		DA56F7152086DA46004A8F78 /* wiktionary-ta.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4C12086DA45004A8F78 /* wiktionary-ta.xml */; };
+		DA56F7162086DA46004A8F78 /* wiktionary-te.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4C22086DA45004A8F78 /* wiktionary-te.xml */; };
+		DA56F7172086DA46004A8F78 /* yahoo-jp.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4C32086DA45004A8F78 /* yahoo-jp.xml */; };
+		DA56F7182086DA46004A8F78 /* yandex-market.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4C42086DA45004A8F78 /* yandex-market.xml */; };
+		DA56F7192086DA46004A8F78 /* yandex-ru.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4C52086DA45004A8F78 /* yandex-ru.xml */; };
+		DA56F71A2086DA46004A8F78 /* yandex-tr.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4C62086DA45004A8F78 /* yandex-tr.xml */; };
+		DA56F71B2086DA46004A8F78 /* yandex.by.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4C72086DA45004A8F78 /* yandex.by.xml */; };
+		DA56F71C2086DA46004A8F78 /* yandex.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4C82086DA45004A8F78 /* yandex.xml */; };
+		DA56F71D2086DA46004A8F78 /* testplugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4CB2086DA45004A8F78 /* testplugin.xml */; };
+		DA56F71E2086DA46004A8F78 /* append.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4CD2086DA45004A8F78 /* append.xml */; };
+		DA56F71F2086DA46004A8F78 /* replace.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4CE2086DA45004A8F78 /* replace.xml */; };
+		DA56F7202086DA46004A8F78 /* append.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4D02086DA45004A8F78 /* append.xml */; };
+		DA56F7212086DA46004A8F78 /* replace.xml in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4D12086DA45004A8F78 /* replace.xml */; };
+		DA56F7222086DA46004A8F78 /* SessionRestore.html in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4D22086DA45004A8F78 /* SessionRestore.html */; };
+		DA56F7232086DA46004A8F78 /* SpotlightHelper.js in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4D32086DA45004A8F78 /* SpotlightHelper.js */; };
+		DA56F7242086DA46004A8F78 /* top_sites.json in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4D42086DA45004A8F78 /* top_sites.json */; };
+		DA56F7252086DA46004A8F78 /* topdomains.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4D52086DA45004A8F78 /* topdomains.txt */; };
+		DA56F7262086DA46004A8F78 /* aa-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4D72086DA45004A8F78 /* aa-com.png */; };
+		DA56F7272086DA46004A8F78 /* abcnews-go-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4D82086DA45004A8F78 /* abcnews-go-com.png */; };
+		DA56F7282086DA46004A8F78 /* about-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4D92086DA45004A8F78 /* about-com.png */; };
+		DA56F7292086DA46004A8F78 /* accuweather-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4DA2086DA45004A8F78 /* accuweather-com.png */; };
+		DA56F72A2086DA46004A8F78 /* adobe-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4DB2086DA45004A8F78 /* adobe-com.png */; };
+		DA56F72B2086DA46004A8F78 /* adp-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4DC2086DA45004A8F78 /* adp-com.png */; };
+		DA56F72C2086DA46004A8F78 /* airbnb-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4DD2086DA45004A8F78 /* airbnb-com.png */; };
+		DA56F72D2086DA46004A8F78 /* allrecipes-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4DE2086DA45004A8F78 /* allrecipes-com.png */; };
+		DA56F72E2086DA46004A8F78 /* amazon-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4DF2086DA45004A8F78 /* amazon-com.png */; };
+		DA56F72F2086DA46004A8F78 /* amazonaws-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4E02086DA45004A8F78 /* amazonaws-com.png */; };
+		DA56F7302086DA46004A8F78 /* americanexpress-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4E12086DA45004A8F78 /* americanexpress-com.png */; };
+		DA56F7312086DA46004A8F78 /* ancestry-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4E22086DA45004A8F78 /* ancestry-com.png */; };
+		DA56F7322086DA46004A8F78 /* answers-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4E32086DA45004A8F78 /* answers-com.png */; };
+		DA56F7332086DA46004A8F78 /* aol-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4E42086DA45004A8F78 /* aol-com.png */; };
+		DA56F7342086DA46004A8F78 /* apple-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4E52086DA45004A8F78 /* apple-com.png */; };
+		DA56F7352086DA46004A8F78 /* ask-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4E62086DA45004A8F78 /* ask-com.png */; };
+		DA56F7362086DA46004A8F78 /* att-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4E72086DA45004A8F78 /* att-com.png */; };
+		DA56F7372086DA46004A8F78 /* baidu-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4E82086DA45004A8F78 /* baidu-com.png */; };
+		DA56F7382086DA46004A8F78 /* bankofamerica-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4E92086DA45004A8F78 /* bankofamerica-com.png */; };
+		DA56F7392086DA46004A8F78 /* bbc-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4EA2086DA45004A8F78 /* bbc-com.png */; };
+		DA56F73A2086DA46004A8F78 /* bestbuy-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4EB2086DA45004A8F78 /* bestbuy-com.png */; };
+		DA56F73B2086DA46004A8F78 /* bing-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4EC2086DA45004A8F78 /* bing-com.png */; };
+		DA56F73C2086DA46004A8F78 /* blackboard-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4ED2086DA45004A8F78 /* blackboard-com.png */; };
+		DA56F73D2086DA46004A8F78 /* bleacherreport-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4EE2086DA45004A8F78 /* bleacherreport-com.png */; };
+		DA56F73E2086DA46004A8F78 /* blogger-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4EF2086DA45004A8F78 /* blogger-com.png */; };
+		DA56F73F2086DA46004A8F78 /* box-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4F02086DA45004A8F78 /* box-com.png */; };
+		DA56F7402086DA46004A8F78 /* businessinsider-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4F12086DA45004A8F78 /* businessinsider-com.png */; };
+		DA56F7412086DA46004A8F78 /* buzzfeed-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4F22086DA45004A8F78 /* buzzfeed-com.png */; };
+		DA56F7422086DA46004A8F78 /* buzzlie-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4F32086DA45004A8F78 /* buzzlie-com.png */; };
+		DA56F7432086DA46004A8F78 /* ca-gov.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4F42086DA45004A8F78 /* ca-gov.png */; };
+		DA56F7442086DA46004A8F78 /* capitalone-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4F52086DA45004A8F78 /* capitalone-com.png */; };
+		DA56F7452086DA46004A8F78 /* cbsnews-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4F62086DA45004A8F78 /* cbsnews-com.png */; };
+		DA56F7462086DA46004A8F78 /* cbssports-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4F72086DA45004A8F78 /* cbssports-com.png */; };
+		DA56F7472086DA46004A8F78 /* chase-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4F82086DA45004A8F78 /* chase-com.png */; };
+		DA56F7482086DA46004A8F78 /* citi-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4F92086DA45004A8F78 /* citi-com.png */; };
+		DA56F7492086DA46004A8F78 /* cnet-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4FA2086DA45004A8F78 /* cnet-com.png */; };
+		DA56F74A2086DA46004A8F78 /* cnn-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4FB2086DA45004A8F78 /* cnn-com.png */; };
+		DA56F74B2086DA46004A8F78 /* conservativetribune-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4FC2086DA45004A8F78 /* conservativetribune-com.png */; };
+		DA56F74C2086DA46004A8F78 /* costco-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4FD2086DA45004A8F78 /* costco-com.png */; };
+		DA56F74D2086DA46004A8F78 /* craigslist-org.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4FE2086DA45004A8F78 /* craigslist-org.png */; };
+		DA56F74E2086DA46004A8F78 /* dailybeast-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F4FF2086DA45004A8F78 /* dailybeast-com.png */; };
+		DA56F74F2086DA46004A8F78 /* dailymail-co-uk.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5002086DA45004A8F78 /* dailymail-co-uk.png */; };
+		DA56F7502086DA46004A8F78 /* delta-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5012086DA45004A8F78 /* delta-com.png */; };
+		DA56F7512086DA46004A8F78 /* deviantart-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5022086DA45004A8F78 /* deviantart-com.png */; };
+		DA56F7522086DA46004A8F78 /* digg-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5032086DA45004A8F78 /* digg-com.png */; };
+		DA56F7532086DA46004A8F78 /* diply-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5042086DA45004A8F78 /* diply-com.png */; };
+		DA56F7542086DA46004A8F78 /* discovercard-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5052086DA45004A8F78 /* discovercard-com.png */; };
+		DA56F7552086DA46004A8F78 /* dropbox-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5062086DA45004A8F78 /* dropbox-com.png */; };
+		DA56F7562086DA46004A8F78 /* drudgereport-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5072086DA45004A8F78 /* drudgereport-com.png */; };
+		DA56F7572086DA46004A8F78 /* ebates-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5082086DA45004A8F78 /* ebates-com.png */; };
+		DA56F7582086DA46004A8F78 /* ebay-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5092086DA45004A8F78 /* ebay-com.png */; };
+		DA56F7592086DA46004A8F78 /* espn-go-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F50A2086DA45004A8F78 /* espn-go-com.png */; };
+		DA56F75A2086DA46004A8F78 /* etsy-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F50B2086DA45004A8F78 /* etsy-com.png */; };
+		DA56F75B2086DA46004A8F78 /* eventbrite-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F50C2086DA45004A8F78 /* eventbrite-com.png */; };
+		DA56F75C2086DA46004A8F78 /* expedia-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F50D2086DA45004A8F78 /* expedia-com.png */; };
+		DA56F75D2086DA46004A8F78 /* facebook-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F50E2086DA45004A8F78 /* facebook-com.png */; };
+		DA56F75E2086DA46004A8F78 /* faithtap-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F50F2086DA45004A8F78 /* faithtap-com.png */; };
+		DA56F75F2086DA46004A8F78 /* fedex-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5102086DA45004A8F78 /* fedex-com.png */; };
+		DA56F7602086DA46004A8F78 /* feedly-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5112086DA45004A8F78 /* feedly-com.png */; };
+		DA56F7612086DA46004A8F78 /* fitbit-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5122086DA45004A8F78 /* fitbit-com.png */; };
+		DA56F7622086DA46004A8F78 /* flickr-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5132086DA45004A8F78 /* flickr-com.png */; };
+		DA56F7632086DA46004A8F78 /* foodnetwork-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5142086DA45004A8F78 /* foodnetwork-com.png */; };
+		DA56F7642086DA46004A8F78 /* forbes-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5152086DA45004A8F78 /* forbes-com.png */; };
+		DA56F7652086DA46004A8F78 /* foxnews-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5162086DA45004A8F78 /* foxnews-com.png */; };
+		DA56F7662086DA46004A8F78 /* gap-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5172086DA45004A8F78 /* gap-com.png */; };
+		DA56F7672086DA46004A8F78 /* gawker-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5182086DA45004A8F78 /* gawker-com.png */; };
+		DA56F7682086DA46004A8F78 /* gfycat-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5192086DA45004A8F78 /* gfycat-com.png */; };
+		DA56F7692086DA46004A8F78 /* github-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F51A2086DA45004A8F78 /* github-com.png */; };
+		DA56F76A2086DA46004A8F78 /* gizmodo-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F51B2086DA45004A8F78 /* gizmodo-com.png */; };
+		DA56F76B2086DA46004A8F78 /* glassdoor-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F51C2086DA45004A8F78 /* glassdoor-com.png */; };
+		DA56F76C2086DA46004A8F78 /* go-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F51D2086DA45004A8F78 /* go-com.png */; };
+		DA56F76D2086DA46004A8F78 /* goodreads-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F51E2086DA45004A8F78 /* goodreads-com.png */; };
+		DA56F76E2086DA46004A8F78 /* google-admin.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F51F2086DA45004A8F78 /* google-admin.png */; };
+		DA56F76F2086DA46004A8F78 /* google-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5202086DA45004A8F78 /* google-calendar.png */; };
+		DA56F7702086DA46004A8F78 /* google-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5212086DA45004A8F78 /* google-com.png */; };
+		DA56F7712086DA46004A8F78 /* google-contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5222086DA45004A8F78 /* google-contacts.png */; };
+		DA56F7722086DA46004A8F78 /* google-docs.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5232086DA45004A8F78 /* google-docs.png */; };
+		DA56F7732086DA46004A8F78 /* google-drive.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5242086DA45004A8F78 /* google-drive.png */; };
+		DA56F7742086DA46004A8F78 /* google-forms.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5252086DA45004A8F78 /* google-forms.png */; };
+		DA56F7752086DA46004A8F78 /* google-gmail.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5262086DA45004A8F78 /* google-gmail.png */; };
+		DA56F7762086DA46004A8F78 /* google-groups.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5272086DA45004A8F78 /* google-groups.png */; };
+		DA56F7772086DA46004A8F78 /* google-hangouts.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5282086DA45004A8F78 /* google-hangouts.png */; };
+		DA56F7782086DA46004A8F78 /* google-photos.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5292086DA45004A8F78 /* google-photos.png */; };
+		DA56F7792086DA46004A8F78 /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F52A2086DA45004A8F78 /* google-plus.png */; };
+		DA56F77A2086DA46004A8F78 /* google-sheets.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F52B2086DA45004A8F78 /* google-sheets.png */; };
+		DA56F77B2086DA46004A8F78 /* google-sites.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F52C2086DA45004A8F78 /* google-sites.png */; };
+		DA56F77C2086DA46004A8F78 /* google-slides.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F52D2086DA45004A8F78 /* google-slides.png */; };
+		DA56F77D2086DA46004A8F78 /* groupon-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F52E2086DA45004A8F78 /* groupon-com.png */; };
+		DA56F77E2086DA46004A8F78 /* homedepot-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F52F2086DA45004A8F78 /* homedepot-com.png */; };
+		DA56F77F2086DA46004A8F78 /* houzz-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5302086DA45004A8F78 /* houzz-com.png */; };
+		DA56F7802086DA46004A8F78 /* huffingtonpost-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5312086DA45004A8F78 /* huffingtonpost-com.png */; };
+		DA56F7812086DA46004A8F78 /* hulu-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5322086DA45004A8F78 /* hulu-com.png */; };
+		DA56F7822086DA46004A8F78 /* ign-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5332086DA45004A8F78 /* ign-com.png */; };
+		DA56F7832086DA46004A8F78 /* ikea-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5342086DA45004A8F78 /* ikea-com.png */; };
+		DA56F7842086DA46004A8F78 /* images-google-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5352086DA45004A8F78 /* images-google-com.png */; };
+		DA56F7852086DA46004A8F78 /* imdb-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5362086DA45004A8F78 /* imdb-com.png */; };
+		DA56F7862086DA46004A8F78 /* imgur-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5372086DA45004A8F78 /* imgur-com.png */; };
+		DA56F7872086DA46004A8F78 /* instagram-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5382086DA45004A8F78 /* instagram-com.png */; };
+		DA56F7882086DA46004A8F78 /* instructure-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5392086DA45004A8F78 /* instructure-com.png */; };
+		DA56F7892086DA46004A8F78 /* intuit-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F53A2086DA45004A8F78 /* intuit-com.png */; };
+		DA56F78A2086DA46004A8F78 /* invision-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F53B2086DA45004A8F78 /* invision-com.png */; };
+		DA56F78B2086DA46004A8F78 /* irs-gov.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F53C2086DA45004A8F78 /* irs-gov.png */; };
+		DA56F78C2086DA46004A8F78 /* jcpenney-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F53D2086DA45004A8F78 /* jcpenney-com.png */; };
+		DA56F78D2086DA46004A8F78 /* jd-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F53E2086DA45004A8F78 /* jd-com.png */; };
+		DA56F78E2086DA46004A8F78 /* kayak-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F53F2086DA45004A8F78 /* kayak-com.png */; };
+		DA56F78F2086DA46004A8F78 /* kohls-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5402086DA45004A8F78 /* kohls-com.png */; };
+		DA56F7902086DA46004A8F78 /* latimes-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5412086DA45004A8F78 /* latimes-com.png */; };
+		DA56F7912086DA46004A8F78 /* lifehacker-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5422086DA45004A8F78 /* lifehacker-com.png */; };
+		DA56F7922086DA46004A8F78 /* linkedin-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5432086DA45004A8F78 /* linkedin-com.png */; };
+		DA56F7932086DA46004A8F78 /* live-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5442086DA45004A8F78 /* live-com.png */; };
+		DA56F7942086DA46004A8F78 /* lowes-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5452086DA45004A8F78 /* lowes-com.png */; };
+		DA56F7952086DA46004A8F78 /* macys-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5462086DA45004A8F78 /* macys-com.png */; };
+		DA56F7962086DA46004A8F78 /* mapquest-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5472086DA45004A8F78 /* mapquest-com.png */; };
+		DA56F7972086DA46004A8F78 /* mashable-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5482086DA45004A8F78 /* mashable-com.png */; };
+		DA56F7982086DA46004A8F78 /* microsoft-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5492086DA45004A8F78 /* microsoft-com.png */; };
+		DA56F7992086DA46004A8F78 /* microsoftonline-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F54A2086DA45004A8F78 /* microsoftonline-com.png */; };
+		DA56F79A2086DA46004A8F78 /* mlb-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F54B2086DA45004A8F78 /* mlb-com.png */; };
+		DA56F79B2086DA46004A8F78 /* mozilla-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F54C2086DA45004A8F78 /* mozilla-com.png */; };
+		DA56F79C2086DA46004A8F78 /* msn-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F54D2086DA45004A8F78 /* msn-com.png */; };
+		DA56F79D2086DA46004A8F78 /* nbcnews-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F54E2086DA45004A8F78 /* nbcnews-com.png */; };
+		DA56F79E2086DA46004A8F78 /* netflix-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F54F2086DA45004A8F78 /* netflix-com.png */; };
+		DA56F79F2086DA46004A8F78 /* newegg-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5502086DA45004A8F78 /* newegg-com.png */; };
+		DA56F7A02086DA46004A8F78 /* news-ycombinator-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5512086DA45004A8F78 /* news-ycombinator-com.png */; };
+		DA56F7A12086DA46004A8F78 /* nih-gov.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5522086DA45004A8F78 /* nih-gov.png */; };
+		DA56F7A22086DA46004A8F78 /* nordstrom-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5532086DA45004A8F78 /* nordstrom-com.png */; };
+		DA56F7A32086DA46004A8F78 /* npr-org.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5542086DA45004A8F78 /* npr-org.png */; };
+		DA56F7A42086DA46004A8F78 /* nypost-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5552086DA45004A8F78 /* nypost-com.png */; };
+		DA56F7A52086DA46004A8F78 /* nytimes-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5562086DA45004A8F78 /* nytimes-com.png */; };
+		DA56F7A62086DA46004A8F78 /* office-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5572086DA45004A8F78 /* office-com.png */; };
+		DA56F7A72086DA46004A8F78 /* overstock-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5582086DA45004A8F78 /* overstock-com.png */; };
+		DA56F7A82086DA46004A8F78 /* pandora-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5592086DA45004A8F78 /* pandora-com.png */; };
+		DA56F7A92086DA46004A8F78 /* patch-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F55A2086DA45004A8F78 /* patch-com.png */; };
+		DA56F7AA2086DA46004A8F78 /* paypal-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F55B2086DA45004A8F78 /* paypal-com.png */; };
+		DA56F7AB2086DA46004A8F78 /* people-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F55C2086DA45004A8F78 /* people-com.png */; };
+		DA56F7AC2086DA46004A8F78 /* pinterest-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F55D2086DA45004A8F78 /* pinterest-com.png */; };
+		DA56F7AD2086DA46004A8F78 /* politico-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F55E2086DA45004A8F78 /* politico-com.png */; };
+		DA56F7AE2086DA46004A8F78 /* qq-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F55F2086DA45004A8F78 /* qq-com.png */; };
+		DA56F7AF2086DA46004A8F78 /* quora-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5602086DA45004A8F78 /* quora-com.png */; };
+		DA56F7B02086DA46004A8F78 /* realtor-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5612086DA45004A8F78 /* realtor-com.png */; };
+		DA56F7B12086DA46004A8F78 /* reddit-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5622086DA45004A8F78 /* reddit-com.png */; };
+		DA56F7B22086DA46004A8F78 /* salesforce-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5632086DA45004A8F78 /* salesforce-com.png */; };
+		DA56F7B32086DA46004A8F78 /* sears-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5642086DA45004A8F78 /* sears-com.png */; };
+		DA56F7B42086DA46004A8F78 /* sina-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5652086DA45004A8F78 /* sina-com.png */; };
+		DA56F7B52086DA46004A8F78 /* slate-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5662086DA45004A8F78 /* slate-com.png */; };
+		DA56F7B62086DA46004A8F78 /* slickdeals-net.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5672086DA45004A8F78 /* slickdeals-net.png */; };
+		DA56F7B72086DA46004A8F78 /* soundcloud-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5682086DA45004A8F78 /* soundcloud-com.png */; };
+		DA56F7B82086DA46004A8F78 /* southwest-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5692086DA45004A8F78 /* southwest-com.png */; };
+		DA56F7B92086DA46004A8F78 /* spotify-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F56A2086DA45004A8F78 /* spotify-com.png */; };
+		DA56F7BA2086DA46004A8F78 /* stackexchange-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F56B2086DA45004A8F78 /* stackexchange-com.png */; };
+		DA56F7BB2086DA46004A8F78 /* stackoverflow-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F56C2086DA45004A8F78 /* stackoverflow-com.png */; };
+		DA56F7BC2086DA46004A8F78 /* staples-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F56D2086DA45004A8F78 /* staples-com.png */; };
+		DA56F7BD2086DA46004A8F78 /* strava-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F56E2086DA45004A8F78 /* strava-com.png */; };
+		DA56F7BE2086DA46004A8F78 /* surveymonkey-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F56F2086DA45004A8F78 /* surveymonkey-com.png */; };
+		DA56F7BF2086DA46004A8F78 /* swagbucks-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5702086DA45004A8F78 /* swagbucks-com.png */; };
+		DA56F7C02086DA46004A8F78 /* t-mobile-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5712086DA45004A8F78 /* t-mobile-com.png */; };
+		DA56F7C12086DA46004A8F78 /* taboola-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5722086DA45004A8F78 /* taboola-com.png */; };
+		DA56F7C22086DA46004A8F78 /* talkingpointsmemo-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5732086DA45004A8F78 /* talkingpointsmemo-com.png */; };
+		DA56F7C32086DA46004A8F78 /* taobao-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5742086DA45004A8F78 /* taobao-com.png */; };
+		DA56F7C42086DA46004A8F78 /* target-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5752086DA45004A8F78 /* target-com.png */; };
+		DA56F7C52086DA46004A8F78 /* thedailybeast-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5762086DA45004A8F78 /* thedailybeast-com.png */; };
+		DA56F7C62086DA46004A8F78 /* theguardian-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5772086DA45004A8F78 /* theguardian-com.png */; };
+		DA56F7C72086DA46004A8F78 /* thesaurus-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5782086DA45004A8F78 /* thesaurus-com.png */; };
+		DA56F7C82086DA46004A8F78 /* ticketmaster-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5792086DA45004A8F78 /* ticketmaster-com.png */; };
+		DA56F7C92086DA46004A8F78 /* tripadvisor-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F57A2086DA45004A8F78 /* tripadvisor-com.png */; };
+		DA56F7CA2086DA46004A8F78 /* trulia-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F57B2086DA45004A8F78 /* trulia-com.png */; };
+		DA56F7CB2086DA46004A8F78 /* tumblr-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F57C2086DA45004A8F78 /* tumblr-com.png */; };
+		DA56F7CC2086DA46004A8F78 /* twitch-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F57D2086DA45004A8F78 /* twitch-tv.png */; };
+		DA56F7CD2086DA46004A8F78 /* twitter-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F57E2086DA45004A8F78 /* twitter-com.png */; };
+		DA56F7CE2086DA46004A8F78 /* ups-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F57F2086DA45004A8F78 /* ups-com.png */; };
+		DA56F7CF2086DA46004A8F78 /* usaa-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5802086DA45004A8F78 /* usaa-com.png */; };
+		DA56F7D02086DA46004A8F78 /* usatoday-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5812086DA45004A8F78 /* usatoday-com.png */; };
+		DA56F7D12086DA46004A8F78 /* usbank-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5822086DA45004A8F78 /* usbank-com.png */; };
+		DA56F7D22086DA46004A8F78 /* usps-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5832086DA45004A8F78 /* usps-com.png */; };
+		DA56F7D32086DA46004A8F78 /* verizon-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5842086DA45004A8F78 /* verizon-com.png */; };
+		DA56F7D42086DA46004A8F78 /* verizonwireless-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5852086DA45004A8F78 /* verizonwireless-com.png */; };
+		DA56F7D52086DA46004A8F78 /* vice-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5862086DA45004A8F78 /* vice-com.png */; };
+		DA56F7D62086DA46004A8F78 /* vimeo-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5872086DA45004A8F78 /* vimeo-com.png */; };
+		DA56F7D72086DA46004A8F78 /* walmart-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5882086DA45004A8F78 /* walmart-com.png */; };
+		DA56F7D82086DA46004A8F78 /* washingtonpost-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5892086DA45004A8F78 /* washingtonpost-com.png */; };
+		DA56F7D92086DA46004A8F78 /* wayfair-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F58A2086DA45004A8F78 /* wayfair-com.png */; };
+		DA56F7DA2086DA46004A8F78 /* weather-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F58B2086DA45004A8F78 /* weather-com.png */; };
+		DA56F7DB2086DA46004A8F78 /* webmd-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F58C2086DA45004A8F78 /* webmd-com.png */; };
+		DA56F7DC2086DA46004A8F78 /* wellsfargo-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F58D2086DA45004A8F78 /* wellsfargo-com.png */; };
+		DA56F7DD2086DA46004A8F78 /* wikia-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F58E2086DA45004A8F78 /* wikia-com.png */; };
+		DA56F7DE2086DA46004A8F78 /* wikihow-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F58F2086DA45004A8F78 /* wikihow-com.png */; };
+		DA56F7DF2086DA46004A8F78 /* wikipedia-org.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5902086DA45004A8F78 /* wikipedia-org.png */; };
+		DA56F7E02086DA46004A8F78 /* wired-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5912086DA45004A8F78 /* wired-com.png */; };
+		DA56F7E12086DA46004A8F78 /* wittyfeed-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5922086DA45004A8F78 /* wittyfeed-com.png */; };
+		DA56F7E22086DA46004A8F78 /* wordpress-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5932086DA45004A8F78 /* wordpress-com.png */; };
+		DA56F7E32086DA46004A8F78 /* wsj-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5942086DA45004A8F78 /* wsj-com.png */; };
+		DA56F7E42086DA46004A8F78 /* wunderground-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5952086DA45004A8F78 /* wunderground-com.png */; };
+		DA56F7E52086DA46004A8F78 /* xfinity-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5962086DA45004A8F78 /* xfinity-com.png */; };
+		DA56F7E62086DA46004A8F78 /* yahoo-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5972086DA45004A8F78 /* yahoo-com.png */; };
+		DA56F7E72086DA46004A8F78 /* yelp-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5982086DA45004A8F78 /* yelp-com.png */; };
+		DA56F7E82086DA46004A8F78 /* youtube-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F5992086DA45004A8F78 /* youtube-com.png */; };
+		DA56F7E92086DA46004A8F78 /* zillow-com.png in Resources */ = {isa = PBXBuildFile; fileRef = DA56F59A2086DA45004A8F78 /* zillow-com.png */; };
+		DA56F89F2086DB48004A8F78 /* QRCode.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA56F89A2086DB47004A8F78 /* QRCode.xcassets */; };
+		DA56F8A02086DB48004A8F78 /* Home.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA56F89B2086DB47004A8F78 /* Home.xcassets */; };
+		DA56F8A12086DB48004A8F78 /* Intro.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA56F89C2086DB47004A8F78 /* Intro.xcassets */; };
+		DA56F8A22086DB48004A8F78 /* Menu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA56F89D2086DB47004A8F78 /* Menu.xcassets */; };
+		DA56F8A32086DB48004A8F78 /* Settings.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA56F89E2086DB48004A8F78 /* Settings.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -332,7 +724,6 @@
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = firefox/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = firefox/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = firefox/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = firefox/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = firefox/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
@@ -343,6 +734,400 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		DA56F40C2086DA45004A8F78 /* Licenses.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Licenses.html; sourceTree = "<group>"; };
+		DA56F40D2086DA45004A8F78 /* AllFramesAtDocumentEnd.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AllFramesAtDocumentEnd.js; sourceTree = "<group>"; };
+		DA56F40E2086DA45004A8F78 /* AllFramesAtDocumentStart.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AllFramesAtDocumentStart.js; sourceTree = "<group>"; };
+		DA56F40F2086DA45004A8F78 /* CertError.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = CertError.css; sourceTree = "<group>"; };
+		DA56F4102086DA45004A8F78 /* CertError.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CertError.html; sourceTree = "<group>"; };
+		DA56F4122086DA45004A8F78 /* CharisSILB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CharisSILB.ttf; sourceTree = "<group>"; };
+		DA56F4132086DA45004A8F78 /* CharisSILBI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CharisSILBI.ttf; sourceTree = "<group>"; };
+		DA56F4142086DA45004A8F78 /* CharisSILI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CharisSILI.ttf; sourceTree = "<group>"; };
+		DA56F4152086DA45004A8F78 /* CharisSILR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CharisSILR.ttf; sourceTree = "<group>"; };
+		DA56F4162086DA45004A8F78 /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
+		DA56F4172086DA45004A8F78 /* FiraSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DA56F4182086DA45004A8F78 /* FiraSans-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Book.ttf"; sourceTree = "<group>"; };
+		DA56F4192086DA45004A8F78 /* FiraSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Italic.ttf"; sourceTree = "<group>"; };
+		DA56F41A2086DA45004A8F78 /* FiraSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.ttf"; sourceTree = "<group>"; };
+		DA56F41B2086DA45004A8F78 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		DA56F41C2086DA45004A8F78 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		DA56F41D2086DA45004A8F78 /* FiraSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		DA56F41E2086DA45004A8F78 /* FiraSans-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-UltraLight.ttf"; sourceTree = "<group>"; };
+		DA56F41F2086DA45004A8F78 /* FxASignIn.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FxASignIn.js; sourceTree = "<group>"; };
+		DA56F4202086DA45004A8F78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA56F4212086DA45004A8F78 /* MainFrameAtDocumentEnd.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MainFrameAtDocumentEnd.js; sourceTree = "<group>"; };
+		DA56F4222086DA45004A8F78 /* MainFrameAtDocumentStart.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MainFrameAtDocumentStart.js; sourceTree = "<group>"; };
+		DA56F4232086DA45004A8F78 /* NetError.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = NetError.css; sourceTree = "<group>"; };
+		DA56F4242086DA45004A8F78 /* NetError.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NetError.html; sourceTree = "<group>"; };
+		DA56F4272086DA45004A8F78 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA56F4282086DA45004A8F78 /* run_tests.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = run_tests.py; sourceTree = "<group>"; };
+		DA56F4292086DA45004A8F78 /* scrape_plugins.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = scrape_plugins.py; sourceTree = "<group>"; };
+		DA56F42B2086DA45004A8F78 /* baidu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = baidu.xml; sourceTree = "<group>"; };
+		DA56F42C2086DA45004A8F78 /* bing.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bing.xml; sourceTree = "<group>"; };
+		DA56F42D2086DA45004A8F78 /* duckduckgo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = duckduckgo.xml; sourceTree = "<group>"; };
+		DA56F42E2086DA45004A8F78 /* qwant.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = qwant.xml; sourceTree = "<group>"; };
+		DA56F42F2086DA45004A8F78 /* yahoo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = yahoo.xml; sourceTree = "<group>"; };
+		DA56F4312086DA45004A8F78 /* amazon-au.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "amazon-au.xml"; sourceTree = "<group>"; };
+		DA56F4322086DA45004A8F78 /* amazon-br.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "amazon-br.xml"; sourceTree = "<group>"; };
+		DA56F4332086DA45004A8F78 /* amazon-ca.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "amazon-ca.xml"; sourceTree = "<group>"; };
+		DA56F4342086DA45004A8F78 /* amazon-co-uk.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "amazon-co-uk.xml"; sourceTree = "<group>"; };
+		DA56F4352086DA45004A8F78 /* amazon-de.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "amazon-de.xml"; sourceTree = "<group>"; };
+		DA56F4362086DA45004A8F78 /* amazon-fr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "amazon-fr.xml"; sourceTree = "<group>"; };
+		DA56F4372086DA45004A8F78 /* amazon-in.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "amazon-in.xml"; sourceTree = "<group>"; };
+		DA56F4382086DA45004A8F78 /* amazon-jp.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "amazon-jp.xml"; sourceTree = "<group>"; };
+		DA56F4392086DA45004A8F78 /* amazon-mx.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "amazon-mx.xml"; sourceTree = "<group>"; };
+		DA56F43A2086DA45004A8F78 /* amazon-nl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "amazon-nl.xml"; sourceTree = "<group>"; };
+		DA56F43B2086DA45004A8F78 /* amazondotcom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = amazondotcom.xml; sourceTree = "<group>"; };
+		DA56F43C2086DA45004A8F78 /* azerdict.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = azerdict.xml; sourceTree = "<group>"; };
+		DA56F43D2086DA45004A8F78 /* azet-sk.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "azet-sk.xml"; sourceTree = "<group>"; };
+		DA56F43E2086DA45004A8F78 /* baidu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = baidu.xml; sourceTree = "<group>"; };
+		DA56F43F2086DA45004A8F78 /* bing.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bing.xml; sourceTree = "<group>"; };
+		DA56F4402086DA45004A8F78 /* bolcom-fy-NL.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "bolcom-fy-NL.xml"; sourceTree = "<group>"; };
+		DA56F4412086DA45004A8F78 /* bolcom-nl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "bolcom-nl.xml"; sourceTree = "<group>"; };
+		DA56F4422086DA45004A8F78 /* ceneje.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ceneje.xml; sourceTree = "<group>"; };
+		DA56F4432086DA45004A8F78 /* coccoc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = coccoc.xml; sourceTree = "<group>"; };
+		DA56F4442086DA45004A8F78 /* danawa-kr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "danawa-kr.xml"; sourceTree = "<group>"; };
+		DA56F4452086DA45004A8F78 /* daum-kr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "daum-kr.xml"; sourceTree = "<group>"; };
+		DA56F4462086DA45004A8F78 /* ddg.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ddg.xml; sourceTree = "<group>"; };
+		DA56F4472086DA45004A8F78 /* diec2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = diec2.xml; sourceTree = "<group>"; };
+		DA56F4482086DA45004A8F78 /* drae.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = drae.xml; sourceTree = "<group>"; };
+		DA56F4492086DA45004A8F78 /* duckduckgo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = duckduckgo.xml; sourceTree = "<group>"; };
+		DA56F44A2086DA45004A8F78 /* elebila.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = elebila.xml; sourceTree = "<group>"; };
+		DA56F44B2086DA45004A8F78 /* faclair-beag.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "faclair-beag.xml"; sourceTree = "<group>"; };
+		DA56F44C2086DA45004A8F78 /* google-2018.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "google-2018.xml"; sourceTree = "<group>"; };
+		DA56F44D2086DA45004A8F78 /* google-nocodes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "google-nocodes.xml"; sourceTree = "<group>"; };
+		DA56F44E2086DA45004A8F78 /* google.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = google.xml; sourceTree = "<group>"; };
+		DA56F44F2086DA45004A8F78 /* gulesider-mobile-NO.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gulesider-mobile-NO.xml"; sourceTree = "<group>"; };
+		DA56F4502086DA45004A8F78 /* heureka-cz.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "heureka-cz.xml"; sourceTree = "<group>"; };
+		DA56F4512086DA45004A8F78 /* leit-is.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "leit-is.xml"; sourceTree = "<group>"; };
+		DA56F4522086DA45004A8F78 /* leo_ende_de.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = leo_ende_de.xml; sourceTree = "<group>"; };
+		DA56F4532086DA45004A8F78 /* list-am.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "list-am.xml"; sourceTree = "<group>"; };
+		DA56F4542086DA45004A8F78 /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		DA56F4552086DA45004A8F78 /* mapy-cz.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mapy-cz.xml"; sourceTree = "<group>"; };
+		DA56F4562086DA45004A8F78 /* mercadolibre-ar.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mercadolibre-ar.xml"; sourceTree = "<group>"; };
+		DA56F4572086DA45004A8F78 /* mercadolibre-cl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mercadolibre-cl.xml"; sourceTree = "<group>"; };
+		DA56F4582086DA45004A8F78 /* mercadolibre-mx.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "mercadolibre-mx.xml"; sourceTree = "<group>"; };
+		DA56F4592086DA45004A8F78 /* naver-kr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "naver-kr.xml"; sourceTree = "<group>"; };
+		DA56F45A2086DA45004A8F78 /* odpiralni.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = odpiralni.xml; sourceTree = "<group>"; };
+		DA56F45B2086DA45004A8F78 /* pledarigrond.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pledarigrond.xml; sourceTree = "<group>"; };
+		DA56F45C2086DA45004A8F78 /* prisjakt-sv-SE.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "prisjakt-sv-SE.xml"; sourceTree = "<group>"; };
+		DA56F45D2086DA45004A8F78 /* qwant.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = qwant.xml; sourceTree = "<group>"; };
+		DA56F45E2086DA45004A8F78 /* rediff.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = rediff.xml; sourceTree = "<group>"; };
+		DA56F45F2086DA45004A8F78 /* reta-vortaro.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "reta-vortaro.xml"; sourceTree = "<group>"; };
+		DA56F4602086DA45004A8F78 /* salidzinilv.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = salidzinilv.xml; sourceTree = "<group>"; };
+		DA56F4612086DA45004A8F78 /* seznam-cz.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "seznam-cz.xml"; sourceTree = "<group>"; };
+		DA56F4622086DA45004A8F78 /* skroutz.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = skroutz.xml; sourceTree = "<group>"; };
+		DA56F4632086DA45004A8F78 /* slovnik-sk.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "slovnik-sk.xml"; sourceTree = "<group>"; };
+		DA56F4642086DA45004A8F78 /* sslv.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sslv.xml; sourceTree = "<group>"; };
+		DA56F4652086DA45004A8F78 /* sztaki-en-hu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "sztaki-en-hu.xml"; sourceTree = "<group>"; };
+		DA56F4662086DA45004A8F78 /* taobao.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = taobao.xml; sourceTree = "<group>"; };
+		DA56F4672086DA45004A8F78 /* tearma.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tearma.xml; sourceTree = "<group>"; };
+		DA56F4682086DA45004A8F78 /* twitter-ja.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "twitter-ja.xml"; sourceTree = "<group>"; };
+		DA56F4692086DA45004A8F78 /* twitter.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = twitter.xml; sourceTree = "<group>"; };
+		DA56F46A2086DA45004A8F78 /* vatera.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vatera.xml; sourceTree = "<group>"; };
+		DA56F46B2086DA45004A8F78 /* wikipedia-an.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-an.xml"; sourceTree = "<group>"; };
+		DA56F46C2086DA45004A8F78 /* wikipedia-ar.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ar.xml"; sourceTree = "<group>"; };
+		DA56F46D2086DA45004A8F78 /* wikipedia-as.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-as.xml"; sourceTree = "<group>"; };
+		DA56F46E2086DA45004A8F78 /* wikipedia-ast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ast.xml"; sourceTree = "<group>"; };
+		DA56F46F2086DA45004A8F78 /* wikipedia-az.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-az.xml"; sourceTree = "<group>"; };
+		DA56F4702086DA45004A8F78 /* wikipedia-be.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-be.xml"; sourceTree = "<group>"; };
+		DA56F4712086DA45004A8F78 /* wikipedia-bg.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-bg.xml"; sourceTree = "<group>"; };
+		DA56F4722086DA45004A8F78 /* wikipedia-bn.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-bn.xml"; sourceTree = "<group>"; };
+		DA56F4732086DA45004A8F78 /* wikipedia-br.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-br.xml"; sourceTree = "<group>"; };
+		DA56F4742086DA45004A8F78 /* wikipedia-bs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-bs.xml"; sourceTree = "<group>"; };
+		DA56F4752086DA45004A8F78 /* wikipedia-ca.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ca.xml"; sourceTree = "<group>"; };
+		DA56F4762086DA45004A8F78 /* wikipedia-cy.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-cy.xml"; sourceTree = "<group>"; };
+		DA56F4772086DA45004A8F78 /* wikipedia-cz.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-cz.xml"; sourceTree = "<group>"; };
+		DA56F4782086DA45004A8F78 /* wikipedia-da.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-da.xml"; sourceTree = "<group>"; };
+		DA56F4792086DA45004A8F78 /* wikipedia-de.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-de.xml"; sourceTree = "<group>"; };
+		DA56F47A2086DA45004A8F78 /* wikipedia-dsb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-dsb.xml"; sourceTree = "<group>"; };
+		DA56F47B2086DA45004A8F78 /* wikipedia-el.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-el.xml"; sourceTree = "<group>"; };
+		DA56F47C2086DA45004A8F78 /* wikipedia-eo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-eo.xml"; sourceTree = "<group>"; };
+		DA56F47D2086DA45004A8F78 /* wikipedia-es.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-es.xml"; sourceTree = "<group>"; };
+		DA56F47E2086DA45004A8F78 /* wikipedia-et.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-et.xml"; sourceTree = "<group>"; };
+		DA56F47F2086DA45004A8F78 /* wikipedia-eu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-eu.xml"; sourceTree = "<group>"; };
+		DA56F4802086DA45004A8F78 /* wikipedia-fa.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-fa.xml"; sourceTree = "<group>"; };
+		DA56F4812086DA45004A8F78 /* wikipedia-fi.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-fi.xml"; sourceTree = "<group>"; };
+		DA56F4822086DA45004A8F78 /* wikipedia-fr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-fr.xml"; sourceTree = "<group>"; };
+		DA56F4832086DA45004A8F78 /* wikipedia-fy-NL.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-fy-NL.xml"; sourceTree = "<group>"; };
+		DA56F4842086DA45004A8F78 /* wikipedia-ga-IE.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ga-IE.xml"; sourceTree = "<group>"; };
+		DA56F4852086DA45004A8F78 /* wikipedia-gd.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-gd.xml"; sourceTree = "<group>"; };
+		DA56F4862086DA45004A8F78 /* wikipedia-gl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-gl.xml"; sourceTree = "<group>"; };
+		DA56F4872086DA45004A8F78 /* wikipedia-gn.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-gn.xml"; sourceTree = "<group>"; };
+		DA56F4882086DA45004A8F78 /* wikipedia-gu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-gu.xml"; sourceTree = "<group>"; };
+		DA56F4892086DA45004A8F78 /* wikipedia-he.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-he.xml"; sourceTree = "<group>"; };
+		DA56F48A2086DA45004A8F78 /* wikipedia-hi.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-hi.xml"; sourceTree = "<group>"; };
+		DA56F48B2086DA45004A8F78 /* wikipedia-hr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-hr.xml"; sourceTree = "<group>"; };
+		DA56F48C2086DA45004A8F78 /* wikipedia-hsb.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-hsb.xml"; sourceTree = "<group>"; };
+		DA56F48D2086DA45004A8F78 /* wikipedia-hu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-hu.xml"; sourceTree = "<group>"; };
+		DA56F48E2086DA45004A8F78 /* wikipedia-hy-AM.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-hy-AM.xml"; sourceTree = "<group>"; };
+		DA56F48F2086DA45004A8F78 /* wikipedia-ia.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ia.xml"; sourceTree = "<group>"; };
+		DA56F4902086DA45004A8F78 /* wikipedia-id.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-id.xml"; sourceTree = "<group>"; };
+		DA56F4912086DA45004A8F78 /* wikipedia-is.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-is.xml"; sourceTree = "<group>"; };
+		DA56F4922086DA45004A8F78 /* wikipedia-it.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-it.xml"; sourceTree = "<group>"; };
+		DA56F4932086DA45004A8F78 /* wikipedia-ja.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ja.xml"; sourceTree = "<group>"; };
+		DA56F4942086DA45004A8F78 /* wikipedia-ka.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ka.xml"; sourceTree = "<group>"; };
+		DA56F4952086DA45004A8F78 /* wikipedia-kab.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-kab.xml"; sourceTree = "<group>"; };
+		DA56F4962086DA45004A8F78 /* wikipedia-kk.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-kk.xml"; sourceTree = "<group>"; };
+		DA56F4972086DA45004A8F78 /* wikipedia-km.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-km.xml"; sourceTree = "<group>"; };
+		DA56F4982086DA45004A8F78 /* wikipedia-kn.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-kn.xml"; sourceTree = "<group>"; };
+		DA56F4992086DA45004A8F78 /* wikipedia-lo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-lo.xml"; sourceTree = "<group>"; };
+		DA56F49A2086DA45004A8F78 /* wikipedia-lt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-lt.xml"; sourceTree = "<group>"; };
+		DA56F49B2086DA45004A8F78 /* wikipedia-ltg.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ltg.xml"; sourceTree = "<group>"; };
+		DA56F49C2086DA45004A8F78 /* wikipedia-lv.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-lv.xml"; sourceTree = "<group>"; };
+		DA56F49D2086DA45004A8F78 /* wikipedia-ml.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ml.xml"; sourceTree = "<group>"; };
+		DA56F49E2086DA45004A8F78 /* wikipedia-mr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-mr.xml"; sourceTree = "<group>"; };
+		DA56F49F2086DA45004A8F78 /* wikipedia-ms.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ms.xml"; sourceTree = "<group>"; };
+		DA56F4A02086DA45004A8F78 /* wikipedia-my.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-my.xml"; sourceTree = "<group>"; };
+		DA56F4A12086DA45004A8F78 /* wikipedia-ne.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ne.xml"; sourceTree = "<group>"; };
+		DA56F4A22086DA45004A8F78 /* wikipedia-nl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-nl.xml"; sourceTree = "<group>"; };
+		DA56F4A32086DA45004A8F78 /* wikipedia-NN.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-NN.xml"; sourceTree = "<group>"; };
+		DA56F4A42086DA45004A8F78 /* wikipedia-NO.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-NO.xml"; sourceTree = "<group>"; };
+		DA56F4A52086DA45004A8F78 /* wikipedia-oc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-oc.xml"; sourceTree = "<group>"; };
+		DA56F4A62086DA45004A8F78 /* wikipedia-or.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-or.xml"; sourceTree = "<group>"; };
+		DA56F4A72086DA45004A8F78 /* wikipedia-pa.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-pa.xml"; sourceTree = "<group>"; };
+		DA56F4A82086DA45004A8F78 /* wikipedia-pl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-pl.xml"; sourceTree = "<group>"; };
+		DA56F4A92086DA45004A8F78 /* wikipedia-pt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-pt.xml"; sourceTree = "<group>"; };
+		DA56F4AA2086DA45004A8F78 /* wikipedia-rm.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-rm.xml"; sourceTree = "<group>"; };
+		DA56F4AB2086DA45004A8F78 /* wikipedia-ro.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ro.xml"; sourceTree = "<group>"; };
+		DA56F4AC2086DA45004A8F78 /* wikipedia-ru.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ru.xml"; sourceTree = "<group>"; };
+		DA56F4AD2086DA45004A8F78 /* wikipedia-sk.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-sk.xml"; sourceTree = "<group>"; };
+		DA56F4AE2086DA45004A8F78 /* wikipedia-sl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-sl.xml"; sourceTree = "<group>"; };
+		DA56F4AF2086DA45004A8F78 /* wikipedia-sq.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-sq.xml"; sourceTree = "<group>"; };
+		DA56F4B02086DA45004A8F78 /* wikipedia-sr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-sr.xml"; sourceTree = "<group>"; };
+		DA56F4B12086DA45004A8F78 /* wikipedia-sv-SE.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-sv-SE.xml"; sourceTree = "<group>"; };
+		DA56F4B22086DA45004A8F78 /* wikipedia-ta.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ta.xml"; sourceTree = "<group>"; };
+		DA56F4B32086DA45004A8F78 /* wikipedia-te.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-te.xml"; sourceTree = "<group>"; };
+		DA56F4B42086DA45004A8F78 /* wikipedia-th.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-th.xml"; sourceTree = "<group>"; };
+		DA56F4B52086DA45004A8F78 /* wikipedia-tr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-tr.xml"; sourceTree = "<group>"; };
+		DA56F4B62086DA45004A8F78 /* wikipedia-uk.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-uk.xml"; sourceTree = "<group>"; };
+		DA56F4B72086DA45004A8F78 /* wikipedia-ur.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-ur.xml"; sourceTree = "<group>"; };
+		DA56F4B82086DA45004A8F78 /* wikipedia-uz.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-uz.xml"; sourceTree = "<group>"; };
+		DA56F4B92086DA45004A8F78 /* wikipedia-vi.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-vi.xml"; sourceTree = "<group>"; };
+		DA56F4BA2086DA45004A8F78 /* wikipedia-wo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-wo.xml"; sourceTree = "<group>"; };
+		DA56F4BB2086DA45004A8F78 /* wikipedia-zh-CN.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-zh-CN.xml"; sourceTree = "<group>"; };
+		DA56F4BC2086DA45004A8F78 /* wikipedia-zh-TW.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wikipedia-zh-TW.xml"; sourceTree = "<group>"; };
+		DA56F4BD2086DA45004A8F78 /* wikipedia.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = wikipedia.xml; sourceTree = "<group>"; };
+		DA56F4BE2086DA45004A8F78 /* wiktionary-kn.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wiktionary-kn.xml"; sourceTree = "<group>"; };
+		DA56F4BF2086DA45004A8F78 /* wiktionary-oc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wiktionary-oc.xml"; sourceTree = "<group>"; };
+		DA56F4C02086DA45004A8F78 /* wiktionary-or.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wiktionary-or.xml"; sourceTree = "<group>"; };
+		DA56F4C12086DA45004A8F78 /* wiktionary-ta.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wiktionary-ta.xml"; sourceTree = "<group>"; };
+		DA56F4C22086DA45004A8F78 /* wiktionary-te.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "wiktionary-te.xml"; sourceTree = "<group>"; };
+		DA56F4C32086DA45004A8F78 /* yahoo-jp.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "yahoo-jp.xml"; sourceTree = "<group>"; };
+		DA56F4C42086DA45004A8F78 /* yandex-market.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "yandex-market.xml"; sourceTree = "<group>"; };
+		DA56F4C52086DA45004A8F78 /* yandex-ru.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "yandex-ru.xml"; sourceTree = "<group>"; };
+		DA56F4C62086DA45004A8F78 /* yandex-tr.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "yandex-tr.xml"; sourceTree = "<group>"; };
+		DA56F4C72086DA45004A8F78 /* yandex.by.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = yandex.by.xml; sourceTree = "<group>"; };
+		DA56F4C82086DA45004A8F78 /* yandex.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = yandex.xml; sourceTree = "<group>"; };
+		DA56F4CB2086DA45004A8F78 /* testplugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testplugin.xml; sourceTree = "<group>"; };
+		DA56F4CD2086DA45004A8F78 /* append.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = append.xml; sourceTree = "<group>"; };
+		DA56F4CE2086DA45004A8F78 /* replace.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = replace.xml; sourceTree = "<group>"; };
+		DA56F4D02086DA45004A8F78 /* append.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = append.xml; sourceTree = "<group>"; };
+		DA56F4D12086DA45004A8F78 /* replace.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = replace.xml; sourceTree = "<group>"; };
+		DA56F4D22086DA45004A8F78 /* SessionRestore.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SessionRestore.html; sourceTree = "<group>"; };
+		DA56F4D32086DA45004A8F78 /* SpotlightHelper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SpotlightHelper.js; sourceTree = "<group>"; };
+		DA56F4D42086DA45004A8F78 /* top_sites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top_sites.json; sourceTree = "<group>"; };
+		DA56F4D52086DA45004A8F78 /* topdomains.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = topdomains.txt; sourceTree = "<group>"; };
+		DA56F4D72086DA45004A8F78 /* aa-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aa-com.png"; sourceTree = "<group>"; };
+		DA56F4D82086DA45004A8F78 /* abcnews-go-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abcnews-go-com.png"; sourceTree = "<group>"; };
+		DA56F4D92086DA45004A8F78 /* about-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-com.png"; sourceTree = "<group>"; };
+		DA56F4DA2086DA45004A8F78 /* accuweather-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accuweather-com.png"; sourceTree = "<group>"; };
+		DA56F4DB2086DA45004A8F78 /* adobe-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adobe-com.png"; sourceTree = "<group>"; };
+		DA56F4DC2086DA45004A8F78 /* adp-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adp-com.png"; sourceTree = "<group>"; };
+		DA56F4DD2086DA45004A8F78 /* airbnb-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airbnb-com.png"; sourceTree = "<group>"; };
+		DA56F4DE2086DA45004A8F78 /* allrecipes-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "allrecipes-com.png"; sourceTree = "<group>"; };
+		DA56F4DF2086DA45004A8F78 /* amazon-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amazon-com.png"; sourceTree = "<group>"; };
+		DA56F4E02086DA45004A8F78 /* amazonaws-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amazonaws-com.png"; sourceTree = "<group>"; };
+		DA56F4E12086DA45004A8F78 /* americanexpress-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "americanexpress-com.png"; sourceTree = "<group>"; };
+		DA56F4E22086DA45004A8F78 /* ancestry-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ancestry-com.png"; sourceTree = "<group>"; };
+		DA56F4E32086DA45004A8F78 /* answers-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "answers-com.png"; sourceTree = "<group>"; };
+		DA56F4E42086DA45004A8F78 /* aol-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aol-com.png"; sourceTree = "<group>"; };
+		DA56F4E52086DA45004A8F78 /* apple-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-com.png"; sourceTree = "<group>"; };
+		DA56F4E62086DA45004A8F78 /* ask-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ask-com.png"; sourceTree = "<group>"; };
+		DA56F4E72086DA45004A8F78 /* att-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "att-com.png"; sourceTree = "<group>"; };
+		DA56F4E82086DA45004A8F78 /* baidu-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baidu-com.png"; sourceTree = "<group>"; };
+		DA56F4E92086DA45004A8F78 /* bankofamerica-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bankofamerica-com.png"; sourceTree = "<group>"; };
+		DA56F4EA2086DA45004A8F78 /* bbc-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bbc-com.png"; sourceTree = "<group>"; };
+		DA56F4EB2086DA45004A8F78 /* bestbuy-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bestbuy-com.png"; sourceTree = "<group>"; };
+		DA56F4EC2086DA45004A8F78 /* bing-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bing-com.png"; sourceTree = "<group>"; };
+		DA56F4ED2086DA45004A8F78 /* blackboard-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackboard-com.png"; sourceTree = "<group>"; };
+		DA56F4EE2086DA45004A8F78 /* bleacherreport-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bleacherreport-com.png"; sourceTree = "<group>"; };
+		DA56F4EF2086DA45004A8F78 /* blogger-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blogger-com.png"; sourceTree = "<group>"; };
+		DA56F4F02086DA45004A8F78 /* box-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-com.png"; sourceTree = "<group>"; };
+		DA56F4F12086DA45004A8F78 /* businessinsider-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "businessinsider-com.png"; sourceTree = "<group>"; };
+		DA56F4F22086DA45004A8F78 /* buzzfeed-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buzzfeed-com.png"; sourceTree = "<group>"; };
+		DA56F4F32086DA45004A8F78 /* buzzlie-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buzzlie-com.png"; sourceTree = "<group>"; };
+		DA56F4F42086DA45004A8F78 /* ca-gov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ca-gov.png"; sourceTree = "<group>"; };
+		DA56F4F52086DA45004A8F78 /* capitalone-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capitalone-com.png"; sourceTree = "<group>"; };
+		DA56F4F62086DA45004A8F78 /* cbsnews-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cbsnews-com.png"; sourceTree = "<group>"; };
+		DA56F4F72086DA45004A8F78 /* cbssports-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cbssports-com.png"; sourceTree = "<group>"; };
+		DA56F4F82086DA45004A8F78 /* chase-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chase-com.png"; sourceTree = "<group>"; };
+		DA56F4F92086DA45004A8F78 /* citi-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "citi-com.png"; sourceTree = "<group>"; };
+		DA56F4FA2086DA45004A8F78 /* cnet-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cnet-com.png"; sourceTree = "<group>"; };
+		DA56F4FB2086DA45004A8F78 /* cnn-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cnn-com.png"; sourceTree = "<group>"; };
+		DA56F4FC2086DA45004A8F78 /* conservativetribune-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "conservativetribune-com.png"; sourceTree = "<group>"; };
+		DA56F4FD2086DA45004A8F78 /* costco-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "costco-com.png"; sourceTree = "<group>"; };
+		DA56F4FE2086DA45004A8F78 /* craigslist-org.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "craigslist-org.png"; sourceTree = "<group>"; };
+		DA56F4FF2086DA45004A8F78 /* dailybeast-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dailybeast-com.png"; sourceTree = "<group>"; };
+		DA56F5002086DA45004A8F78 /* dailymail-co-uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dailymail-co-uk.png"; sourceTree = "<group>"; };
+		DA56F5012086DA45004A8F78 /* delta-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delta-com.png"; sourceTree = "<group>"; };
+		DA56F5022086DA45004A8F78 /* deviantart-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deviantart-com.png"; sourceTree = "<group>"; };
+		DA56F5032086DA45004A8F78 /* digg-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "digg-com.png"; sourceTree = "<group>"; };
+		DA56F5042086DA45004A8F78 /* diply-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diply-com.png"; sourceTree = "<group>"; };
+		DA56F5052086DA45004A8F78 /* discovercard-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discovercard-com.png"; sourceTree = "<group>"; };
+		DA56F5062086DA45004A8F78 /* dropbox-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropbox-com.png"; sourceTree = "<group>"; };
+		DA56F5072086DA45004A8F78 /* drudgereport-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drudgereport-com.png"; sourceTree = "<group>"; };
+		DA56F5082086DA45004A8F78 /* ebates-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ebates-com.png"; sourceTree = "<group>"; };
+		DA56F5092086DA45004A8F78 /* ebay-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ebay-com.png"; sourceTree = "<group>"; };
+		DA56F50A2086DA45004A8F78 /* espn-go-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "espn-go-com.png"; sourceTree = "<group>"; };
+		DA56F50B2086DA45004A8F78 /* etsy-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "etsy-com.png"; sourceTree = "<group>"; };
+		DA56F50C2086DA45004A8F78 /* eventbrite-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eventbrite-com.png"; sourceTree = "<group>"; };
+		DA56F50D2086DA45004A8F78 /* expedia-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expedia-com.png"; sourceTree = "<group>"; };
+		DA56F50E2086DA45004A8F78 /* facebook-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-com.png"; sourceTree = "<group>"; };
+		DA56F50F2086DA45004A8F78 /* faithtap-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faithtap-com.png"; sourceTree = "<group>"; };
+		DA56F5102086DA45004A8F78 /* fedex-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fedex-com.png"; sourceTree = "<group>"; };
+		DA56F5112086DA45004A8F78 /* feedly-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feedly-com.png"; sourceTree = "<group>"; };
+		DA56F5122086DA45004A8F78 /* fitbit-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fitbit-com.png"; sourceTree = "<group>"; };
+		DA56F5132086DA45004A8F78 /* flickr-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flickr-com.png"; sourceTree = "<group>"; };
+		DA56F5142086DA45004A8F78 /* foodnetwork-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foodnetwork-com.png"; sourceTree = "<group>"; };
+		DA56F5152086DA45004A8F78 /* forbes-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forbes-com.png"; sourceTree = "<group>"; };
+		DA56F5162086DA45004A8F78 /* foxnews-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foxnews-com.png"; sourceTree = "<group>"; };
+		DA56F5172086DA45004A8F78 /* gap-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gap-com.png"; sourceTree = "<group>"; };
+		DA56F5182086DA45004A8F78 /* gawker-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gawker-com.png"; sourceTree = "<group>"; };
+		DA56F5192086DA45004A8F78 /* gfycat-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gfycat-com.png"; sourceTree = "<group>"; };
+		DA56F51A2086DA45004A8F78 /* github-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-com.png"; sourceTree = "<group>"; };
+		DA56F51B2086DA45004A8F78 /* gizmodo-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gizmodo-com.png"; sourceTree = "<group>"; };
+		DA56F51C2086DA45004A8F78 /* glassdoor-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glassdoor-com.png"; sourceTree = "<group>"; };
+		DA56F51D2086DA45004A8F78 /* go-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-com.png"; sourceTree = "<group>"; };
+		DA56F51E2086DA45004A8F78 /* goodreads-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goodreads-com.png"; sourceTree = "<group>"; };
+		DA56F51F2086DA45004A8F78 /* google-admin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-admin.png"; sourceTree = "<group>"; };
+		DA56F5202086DA45004A8F78 /* google-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-calendar.png"; sourceTree = "<group>"; };
+		DA56F5212086DA45004A8F78 /* google-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-com.png"; sourceTree = "<group>"; };
+		DA56F5222086DA45004A8F78 /* google-contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-contacts.png"; sourceTree = "<group>"; };
+		DA56F5232086DA45004A8F78 /* google-docs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-docs.png"; sourceTree = "<group>"; };
+		DA56F5242086DA45004A8F78 /* google-drive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-drive.png"; sourceTree = "<group>"; };
+		DA56F5252086DA45004A8F78 /* google-forms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-forms.png"; sourceTree = "<group>"; };
+		DA56F5262086DA45004A8F78 /* google-gmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-gmail.png"; sourceTree = "<group>"; };
+		DA56F5272086DA45004A8F78 /* google-groups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-groups.png"; sourceTree = "<group>"; };
+		DA56F5282086DA45004A8F78 /* google-hangouts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-hangouts.png"; sourceTree = "<group>"; };
+		DA56F5292086DA45004A8F78 /* google-photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-photos.png"; sourceTree = "<group>"; };
+		DA56F52A2086DA45004A8F78 /* google-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-plus.png"; sourceTree = "<group>"; };
+		DA56F52B2086DA45004A8F78 /* google-sheets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-sheets.png"; sourceTree = "<group>"; };
+		DA56F52C2086DA45004A8F78 /* google-sites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-sites.png"; sourceTree = "<group>"; };
+		DA56F52D2086DA45004A8F78 /* google-slides.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-slides.png"; sourceTree = "<group>"; };
+		DA56F52E2086DA45004A8F78 /* groupon-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groupon-com.png"; sourceTree = "<group>"; };
+		DA56F52F2086DA45004A8F78 /* homedepot-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homedepot-com.png"; sourceTree = "<group>"; };
+		DA56F5302086DA45004A8F78 /* houzz-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "houzz-com.png"; sourceTree = "<group>"; };
+		DA56F5312086DA45004A8F78 /* huffingtonpost-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "huffingtonpost-com.png"; sourceTree = "<group>"; };
+		DA56F5322086DA45004A8F78 /* hulu-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hulu-com.png"; sourceTree = "<group>"; };
+		DA56F5332086DA45004A8F78 /* ign-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ign-com.png"; sourceTree = "<group>"; };
+		DA56F5342086DA45004A8F78 /* ikea-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ikea-com.png"; sourceTree = "<group>"; };
+		DA56F5352086DA45004A8F78 /* images-google-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images-google-com.png"; sourceTree = "<group>"; };
+		DA56F5362086DA45004A8F78 /* imdb-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imdb-com.png"; sourceTree = "<group>"; };
+		DA56F5372086DA45004A8F78 /* imgur-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgur-com.png"; sourceTree = "<group>"; };
+		DA56F5382086DA45004A8F78 /* instagram-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram-com.png"; sourceTree = "<group>"; };
+		DA56F5392086DA45004A8F78 /* instructure-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instructure-com.png"; sourceTree = "<group>"; };
+		DA56F53A2086DA45004A8F78 /* intuit-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "intuit-com.png"; sourceTree = "<group>"; };
+		DA56F53B2086DA45004A8F78 /* invision-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invision-com.png"; sourceTree = "<group>"; };
+		DA56F53C2086DA45004A8F78 /* irs-gov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "irs-gov.png"; sourceTree = "<group>"; };
+		DA56F53D2086DA45004A8F78 /* jcpenney-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jcpenney-com.png"; sourceTree = "<group>"; };
+		DA56F53E2086DA45004A8F78 /* jd-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jd-com.png"; sourceTree = "<group>"; };
+		DA56F53F2086DA45004A8F78 /* kayak-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kayak-com.png"; sourceTree = "<group>"; };
+		DA56F5402086DA45004A8F78 /* kohls-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kohls-com.png"; sourceTree = "<group>"; };
+		DA56F5412086DA45004A8F78 /* latimes-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "latimes-com.png"; sourceTree = "<group>"; };
+		DA56F5422086DA45004A8F78 /* lifehacker-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lifehacker-com.png"; sourceTree = "<group>"; };
+		DA56F5432086DA45004A8F78 /* linkedin-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkedin-com.png"; sourceTree = "<group>"; };
+		DA56F5442086DA45004A8F78 /* live-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live-com.png"; sourceTree = "<group>"; };
+		DA56F5452086DA45004A8F78 /* lowes-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lowes-com.png"; sourceTree = "<group>"; };
+		DA56F5462086DA45004A8F78 /* macys-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "macys-com.png"; sourceTree = "<group>"; };
+		DA56F5472086DA45004A8F78 /* mapquest-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapquest-com.png"; sourceTree = "<group>"; };
+		DA56F5482086DA45004A8F78 /* mashable-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mashable-com.png"; sourceTree = "<group>"; };
+		DA56F5492086DA45004A8F78 /* microsoft-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microsoft-com.png"; sourceTree = "<group>"; };
+		DA56F54A2086DA45004A8F78 /* microsoftonline-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microsoftonline-com.png"; sourceTree = "<group>"; };
+		DA56F54B2086DA45004A8F78 /* mlb-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mlb-com.png"; sourceTree = "<group>"; };
+		DA56F54C2086DA45004A8F78 /* mozilla-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mozilla-com.png"; sourceTree = "<group>"; };
+		DA56F54D2086DA45004A8F78 /* msn-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "msn-com.png"; sourceTree = "<group>"; };
+		DA56F54E2086DA45004A8F78 /* nbcnews-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nbcnews-com.png"; sourceTree = "<group>"; };
+		DA56F54F2086DA45004A8F78 /* netflix-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "netflix-com.png"; sourceTree = "<group>"; };
+		DA56F5502086DA45004A8F78 /* newegg-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newegg-com.png"; sourceTree = "<group>"; };
+		DA56F5512086DA45004A8F78 /* news-ycombinator-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news-ycombinator-com.png"; sourceTree = "<group>"; };
+		DA56F5522086DA45004A8F78 /* nih-gov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nih-gov.png"; sourceTree = "<group>"; };
+		DA56F5532086DA45004A8F78 /* nordstrom-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nordstrom-com.png"; sourceTree = "<group>"; };
+		DA56F5542086DA45004A8F78 /* npr-org.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "npr-org.png"; sourceTree = "<group>"; };
+		DA56F5552086DA45004A8F78 /* nypost-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nypost-com.png"; sourceTree = "<group>"; };
+		DA56F5562086DA45004A8F78 /* nytimes-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nytimes-com.png"; sourceTree = "<group>"; };
+		DA56F5572086DA45004A8F78 /* office-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "office-com.png"; sourceTree = "<group>"; };
+		DA56F5582086DA45004A8F78 /* overstock-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overstock-com.png"; sourceTree = "<group>"; };
+		DA56F5592086DA45004A8F78 /* pandora-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pandora-com.png"; sourceTree = "<group>"; };
+		DA56F55A2086DA45004A8F78 /* patch-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patch-com.png"; sourceTree = "<group>"; };
+		DA56F55B2086DA45004A8F78 /* paypal-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paypal-com.png"; sourceTree = "<group>"; };
+		DA56F55C2086DA45004A8F78 /* people-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "people-com.png"; sourceTree = "<group>"; };
+		DA56F55D2086DA45004A8F78 /* pinterest-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinterest-com.png"; sourceTree = "<group>"; };
+		DA56F55E2086DA45004A8F78 /* politico-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "politico-com.png"; sourceTree = "<group>"; };
+		DA56F55F2086DA45004A8F78 /* qq-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qq-com.png"; sourceTree = "<group>"; };
+		DA56F5602086DA45004A8F78 /* quora-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quora-com.png"; sourceTree = "<group>"; };
+		DA56F5612086DA45004A8F78 /* realtor-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "realtor-com.png"; sourceTree = "<group>"; };
+		DA56F5622086DA45004A8F78 /* reddit-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reddit-com.png"; sourceTree = "<group>"; };
+		DA56F5632086DA45004A8F78 /* salesforce-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "salesforce-com.png"; sourceTree = "<group>"; };
+		DA56F5642086DA45004A8F78 /* sears-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sears-com.png"; sourceTree = "<group>"; };
+		DA56F5652086DA45004A8F78 /* sina-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sina-com.png"; sourceTree = "<group>"; };
+		DA56F5662086DA45004A8F78 /* slate-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slate-com.png"; sourceTree = "<group>"; };
+		DA56F5672086DA45004A8F78 /* slickdeals-net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slickdeals-net.png"; sourceTree = "<group>"; };
+		DA56F5682086DA45004A8F78 /* soundcloud-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soundcloud-com.png"; sourceTree = "<group>"; };
+		DA56F5692086DA45004A8F78 /* southwest-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "southwest-com.png"; sourceTree = "<group>"; };
+		DA56F56A2086DA45004A8F78 /* spotify-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spotify-com.png"; sourceTree = "<group>"; };
+		DA56F56B2086DA45004A8F78 /* stackexchange-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stackexchange-com.png"; sourceTree = "<group>"; };
+		DA56F56C2086DA45004A8F78 /* stackoverflow-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stackoverflow-com.png"; sourceTree = "<group>"; };
+		DA56F56D2086DA45004A8F78 /* staples-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "staples-com.png"; sourceTree = "<group>"; };
+		DA56F56E2086DA45004A8F78 /* strava-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strava-com.png"; sourceTree = "<group>"; };
+		DA56F56F2086DA45004A8F78 /* surveymonkey-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "surveymonkey-com.png"; sourceTree = "<group>"; };
+		DA56F5702086DA45004A8F78 /* swagbucks-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swagbucks-com.png"; sourceTree = "<group>"; };
+		DA56F5712086DA45004A8F78 /* t-mobile-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t-mobile-com.png"; sourceTree = "<group>"; };
+		DA56F5722086DA45004A8F78 /* taboola-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taboola-com.png"; sourceTree = "<group>"; };
+		DA56F5732086DA45004A8F78 /* talkingpointsmemo-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "talkingpointsmemo-com.png"; sourceTree = "<group>"; };
+		DA56F5742086DA45004A8F78 /* taobao-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taobao-com.png"; sourceTree = "<group>"; };
+		DA56F5752086DA45004A8F78 /* target-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "target-com.png"; sourceTree = "<group>"; };
+		DA56F5762086DA45004A8F78 /* thedailybeast-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thedailybeast-com.png"; sourceTree = "<group>"; };
+		DA56F5772086DA45004A8F78 /* theguardian-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "theguardian-com.png"; sourceTree = "<group>"; };
+		DA56F5782086DA45004A8F78 /* thesaurus-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thesaurus-com.png"; sourceTree = "<group>"; };
+		DA56F5792086DA45004A8F78 /* ticketmaster-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ticketmaster-com.png"; sourceTree = "<group>"; };
+		DA56F57A2086DA45004A8F78 /* tripadvisor-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tripadvisor-com.png"; sourceTree = "<group>"; };
+		DA56F57B2086DA45004A8F78 /* trulia-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trulia-com.png"; sourceTree = "<group>"; };
+		DA56F57C2086DA45004A8F78 /* tumblr-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tumblr-com.png"; sourceTree = "<group>"; };
+		DA56F57D2086DA45004A8F78 /* twitch-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitch-tv.png"; sourceTree = "<group>"; };
+		DA56F57E2086DA45004A8F78 /* twitter-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-com.png"; sourceTree = "<group>"; };
+		DA56F57F2086DA45004A8F78 /* ups-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ups-com.png"; sourceTree = "<group>"; };
+		DA56F5802086DA45004A8F78 /* usaa-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usaa-com.png"; sourceTree = "<group>"; };
+		DA56F5812086DA45004A8F78 /* usatoday-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usatoday-com.png"; sourceTree = "<group>"; };
+		DA56F5822086DA45004A8F78 /* usbank-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usbank-com.png"; sourceTree = "<group>"; };
+		DA56F5832086DA45004A8F78 /* usps-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usps-com.png"; sourceTree = "<group>"; };
+		DA56F5842086DA45004A8F78 /* verizon-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "verizon-com.png"; sourceTree = "<group>"; };
+		DA56F5852086DA45004A8F78 /* verizonwireless-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "verizonwireless-com.png"; sourceTree = "<group>"; };
+		DA56F5862086DA45004A8F78 /* vice-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vice-com.png"; sourceTree = "<group>"; };
+		DA56F5872086DA45004A8F78 /* vimeo-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vimeo-com.png"; sourceTree = "<group>"; };
+		DA56F5882086DA45004A8F78 /* walmart-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walmart-com.png"; sourceTree = "<group>"; };
+		DA56F5892086DA45004A8F78 /* washingtonpost-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "washingtonpost-com.png"; sourceTree = "<group>"; };
+		DA56F58A2086DA45004A8F78 /* wayfair-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wayfair-com.png"; sourceTree = "<group>"; };
+		DA56F58B2086DA45004A8F78 /* weather-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather-com.png"; sourceTree = "<group>"; };
+		DA56F58C2086DA45004A8F78 /* webmd-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webmd-com.png"; sourceTree = "<group>"; };
+		DA56F58D2086DA45004A8F78 /* wellsfargo-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wellsfargo-com.png"; sourceTree = "<group>"; };
+		DA56F58E2086DA45004A8F78 /* wikia-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wikia-com.png"; sourceTree = "<group>"; };
+		DA56F58F2086DA45004A8F78 /* wikihow-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wikihow-com.png"; sourceTree = "<group>"; };
+		DA56F5902086DA45004A8F78 /* wikipedia-org.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wikipedia-org.png"; sourceTree = "<group>"; };
+		DA56F5912086DA45004A8F78 /* wired-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wired-com.png"; sourceTree = "<group>"; };
+		DA56F5922086DA45004A8F78 /* wittyfeed-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wittyfeed-com.png"; sourceTree = "<group>"; };
+		DA56F5932086DA45004A8F78 /* wordpress-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wordpress-com.png"; sourceTree = "<group>"; };
+		DA56F5942086DA45004A8F78 /* wsj-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wsj-com.png"; sourceTree = "<group>"; };
+		DA56F5952086DA45004A8F78 /* wunderground-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wunderground-com.png"; sourceTree = "<group>"; };
+		DA56F5962086DA45004A8F78 /* xfinity-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xfinity-com.png"; sourceTree = "<group>"; };
+		DA56F5972086DA45004A8F78 /* yahoo-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yahoo-com.png"; sourceTree = "<group>"; };
+		DA56F5982086DA45004A8F78 /* yelp-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yelp-com.png"; sourceTree = "<group>"; };
+		DA56F5992086DA45004A8F78 /* youtube-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "youtube-com.png"; sourceTree = "<group>"; };
+		DA56F59A2086DA45004A8F78 /* zillow-com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zillow-com.png"; sourceTree = "<group>"; };
+		DA56F89A2086DB47004A8F78 /* QRCode.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QRCode.xcassets; sourceTree = "<group>"; };
+		DA56F89B2086DB47004A8F78 /* Home.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Home.xcassets; sourceTree = "<group>"; };
+		DA56F89C2086DB47004A8F78 /* Intro.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Intro.xcassets; sourceTree = "<group>"; };
+		DA56F89D2086DB47004A8F78 /* Menu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Menu.xcassets; sourceTree = "<group>"; };
+		DA56F89E2086DB48004A8F78 /* Settings.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Settings.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,10 +1270,10 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				DA56F4092086DA45004A8F78 /* Client */,
 			);
 			name = firefox;
 			sourceTree = "<group>";
@@ -602,6 +1387,495 @@
 				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DA56F4092086DA45004A8F78 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F40A2086DA45004A8F78 /* Assets */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		DA56F40A2086DA45004A8F78 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F89B2086DB47004A8F78 /* Home.xcassets */,
+				DA56F89C2086DB47004A8F78 /* Intro.xcassets */,
+				DA56F89D2086DB47004A8F78 /* Menu.xcassets */,
+				DA56F89A2086DB47004A8F78 /* QRCode.xcassets */,
+				DA56F89E2086DB48004A8F78 /* Settings.xcassets */,
+				DA56F40B2086DA45004A8F78 /* About */,
+				DA56F40D2086DA45004A8F78 /* AllFramesAtDocumentEnd.js */,
+				DA56F40E2086DA45004A8F78 /* AllFramesAtDocumentStart.js */,
+				DA56F40F2086DA45004A8F78 /* CertError.css */,
+				DA56F4102086DA45004A8F78 /* CertError.html */,
+				DA56F4112086DA45004A8F78 /* Fonts */,
+				DA56F41F2086DA45004A8F78 /* FxASignIn.js */,
+				DA56F4202086DA45004A8F78 /* Images.xcassets */,
+				DA56F4212086DA45004A8F78 /* MainFrameAtDocumentEnd.js */,
+				DA56F4222086DA45004A8F78 /* MainFrameAtDocumentStart.js */,
+				DA56F4232086DA45004A8F78 /* NetError.css */,
+				DA56F4242086DA45004A8F78 /* NetError.html */,
+				DA56F4252086DA45004A8F78 /* Search */,
+				DA56F4D22086DA45004A8F78 /* SessionRestore.html */,
+				DA56F4D32086DA45004A8F78 /* SpotlightHelper.js */,
+				DA56F4D42086DA45004A8F78 /* top_sites.json */,
+				DA56F4D52086DA45004A8F78 /* topdomains.txt */,
+				DA56F4D62086DA45004A8F78 /* TopSites */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DA56F40B2086DA45004A8F78 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F40C2086DA45004A8F78 /* Licenses.html */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		DA56F4112086DA45004A8F78 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F4122086DA45004A8F78 /* CharisSILB.ttf */,
+				DA56F4132086DA45004A8F78 /* CharisSILBI.ttf */,
+				DA56F4142086DA45004A8F78 /* CharisSILI.ttf */,
+				DA56F4152086DA45004A8F78 /* CharisSILR.ttf */,
+				DA56F4162086DA45004A8F78 /* FiraSans-Bold.ttf */,
+				DA56F4172086DA45004A8F78 /* FiraSans-BoldItalic.ttf */,
+				DA56F4182086DA45004A8F78 /* FiraSans-Book.ttf */,
+				DA56F4192086DA45004A8F78 /* FiraSans-Italic.ttf */,
+				DA56F41A2086DA45004A8F78 /* FiraSans-Light.ttf */,
+				DA56F41B2086DA45004A8F78 /* FiraSans-Medium.ttf */,
+				DA56F41C2086DA45004A8F78 /* FiraSans-Regular.ttf */,
+				DA56F41D2086DA45004A8F78 /* FiraSans-SemiBold.ttf */,
+				DA56F41E2086DA45004A8F78 /* FiraSans-UltraLight.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DA56F4252086DA45004A8F78 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F4272086DA45004A8F78 /* README.md */,
+				DA56F4282086DA45004A8F78 /* run_tests.py */,
+				DA56F4292086DA45004A8F78 /* scrape_plugins.py */,
+				DA56F42A2086DA45004A8F78 /* SearchOverlays */,
+				DA56F4302086DA45004A8F78 /* SearchPlugins */,
+				DA56F4C92086DA45004A8F78 /* Tests */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		DA56F42A2086DA45004A8F78 /* SearchOverlays */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F42B2086DA45004A8F78 /* baidu.xml */,
+				DA56F42C2086DA45004A8F78 /* bing.xml */,
+				DA56F42D2086DA45004A8F78 /* duckduckgo.xml */,
+				DA56F42E2086DA45004A8F78 /* qwant.xml */,
+				DA56F42F2086DA45004A8F78 /* yahoo.xml */,
+			);
+			path = SearchOverlays;
+			sourceTree = "<group>";
+		};
+		DA56F4302086DA45004A8F78 /* SearchPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F4312086DA45004A8F78 /* amazon-au.xml */,
+				DA56F4322086DA45004A8F78 /* amazon-br.xml */,
+				DA56F4332086DA45004A8F78 /* amazon-ca.xml */,
+				DA56F4342086DA45004A8F78 /* amazon-co-uk.xml */,
+				DA56F4352086DA45004A8F78 /* amazon-de.xml */,
+				DA56F4362086DA45004A8F78 /* amazon-fr.xml */,
+				DA56F4372086DA45004A8F78 /* amazon-in.xml */,
+				DA56F4382086DA45004A8F78 /* amazon-jp.xml */,
+				DA56F4392086DA45004A8F78 /* amazon-mx.xml */,
+				DA56F43A2086DA45004A8F78 /* amazon-nl.xml */,
+				DA56F43B2086DA45004A8F78 /* amazondotcom.xml */,
+				DA56F43C2086DA45004A8F78 /* azerdict.xml */,
+				DA56F43D2086DA45004A8F78 /* azet-sk.xml */,
+				DA56F43E2086DA45004A8F78 /* baidu.xml */,
+				DA56F43F2086DA45004A8F78 /* bing.xml */,
+				DA56F4402086DA45004A8F78 /* bolcom-fy-NL.xml */,
+				DA56F4412086DA45004A8F78 /* bolcom-nl.xml */,
+				DA56F4422086DA45004A8F78 /* ceneje.xml */,
+				DA56F4432086DA45004A8F78 /* coccoc.xml */,
+				DA56F4442086DA45004A8F78 /* danawa-kr.xml */,
+				DA56F4452086DA45004A8F78 /* daum-kr.xml */,
+				DA56F4462086DA45004A8F78 /* ddg.xml */,
+				DA56F4472086DA45004A8F78 /* diec2.xml */,
+				DA56F4482086DA45004A8F78 /* drae.xml */,
+				DA56F4492086DA45004A8F78 /* duckduckgo.xml */,
+				DA56F44A2086DA45004A8F78 /* elebila.xml */,
+				DA56F44B2086DA45004A8F78 /* faclair-beag.xml */,
+				DA56F44C2086DA45004A8F78 /* google-2018.xml */,
+				DA56F44D2086DA45004A8F78 /* google-nocodes.xml */,
+				DA56F44E2086DA45004A8F78 /* google.xml */,
+				DA56F44F2086DA45004A8F78 /* gulesider-mobile-NO.xml */,
+				DA56F4502086DA45004A8F78 /* heureka-cz.xml */,
+				DA56F4512086DA45004A8F78 /* leit-is.xml */,
+				DA56F4522086DA45004A8F78 /* leo_ende_de.xml */,
+				DA56F4532086DA45004A8F78 /* list-am.xml */,
+				DA56F4542086DA45004A8F78 /* list.json */,
+				DA56F4552086DA45004A8F78 /* mapy-cz.xml */,
+				DA56F4562086DA45004A8F78 /* mercadolibre-ar.xml */,
+				DA56F4572086DA45004A8F78 /* mercadolibre-cl.xml */,
+				DA56F4582086DA45004A8F78 /* mercadolibre-mx.xml */,
+				DA56F4592086DA45004A8F78 /* naver-kr.xml */,
+				DA56F45A2086DA45004A8F78 /* odpiralni.xml */,
+				DA56F45B2086DA45004A8F78 /* pledarigrond.xml */,
+				DA56F45C2086DA45004A8F78 /* prisjakt-sv-SE.xml */,
+				DA56F45D2086DA45004A8F78 /* qwant.xml */,
+				DA56F45E2086DA45004A8F78 /* rediff.xml */,
+				DA56F45F2086DA45004A8F78 /* reta-vortaro.xml */,
+				DA56F4602086DA45004A8F78 /* salidzinilv.xml */,
+				DA56F4612086DA45004A8F78 /* seznam-cz.xml */,
+				DA56F4622086DA45004A8F78 /* skroutz.xml */,
+				DA56F4632086DA45004A8F78 /* slovnik-sk.xml */,
+				DA56F4642086DA45004A8F78 /* sslv.xml */,
+				DA56F4652086DA45004A8F78 /* sztaki-en-hu.xml */,
+				DA56F4662086DA45004A8F78 /* taobao.xml */,
+				DA56F4672086DA45004A8F78 /* tearma.xml */,
+				DA56F4682086DA45004A8F78 /* twitter-ja.xml */,
+				DA56F4692086DA45004A8F78 /* twitter.xml */,
+				DA56F46A2086DA45004A8F78 /* vatera.xml */,
+				DA56F46B2086DA45004A8F78 /* wikipedia-an.xml */,
+				DA56F46C2086DA45004A8F78 /* wikipedia-ar.xml */,
+				DA56F46D2086DA45004A8F78 /* wikipedia-as.xml */,
+				DA56F46E2086DA45004A8F78 /* wikipedia-ast.xml */,
+				DA56F46F2086DA45004A8F78 /* wikipedia-az.xml */,
+				DA56F4702086DA45004A8F78 /* wikipedia-be.xml */,
+				DA56F4712086DA45004A8F78 /* wikipedia-bg.xml */,
+				DA56F4722086DA45004A8F78 /* wikipedia-bn.xml */,
+				DA56F4732086DA45004A8F78 /* wikipedia-br.xml */,
+				DA56F4742086DA45004A8F78 /* wikipedia-bs.xml */,
+				DA56F4752086DA45004A8F78 /* wikipedia-ca.xml */,
+				DA56F4762086DA45004A8F78 /* wikipedia-cy.xml */,
+				DA56F4772086DA45004A8F78 /* wikipedia-cz.xml */,
+				DA56F4782086DA45004A8F78 /* wikipedia-da.xml */,
+				DA56F4792086DA45004A8F78 /* wikipedia-de.xml */,
+				DA56F47A2086DA45004A8F78 /* wikipedia-dsb.xml */,
+				DA56F47B2086DA45004A8F78 /* wikipedia-el.xml */,
+				DA56F47C2086DA45004A8F78 /* wikipedia-eo.xml */,
+				DA56F47D2086DA45004A8F78 /* wikipedia-es.xml */,
+				DA56F47E2086DA45004A8F78 /* wikipedia-et.xml */,
+				DA56F47F2086DA45004A8F78 /* wikipedia-eu.xml */,
+				DA56F4802086DA45004A8F78 /* wikipedia-fa.xml */,
+				DA56F4812086DA45004A8F78 /* wikipedia-fi.xml */,
+				DA56F4822086DA45004A8F78 /* wikipedia-fr.xml */,
+				DA56F4832086DA45004A8F78 /* wikipedia-fy-NL.xml */,
+				DA56F4842086DA45004A8F78 /* wikipedia-ga-IE.xml */,
+				DA56F4852086DA45004A8F78 /* wikipedia-gd.xml */,
+				DA56F4862086DA45004A8F78 /* wikipedia-gl.xml */,
+				DA56F4872086DA45004A8F78 /* wikipedia-gn.xml */,
+				DA56F4882086DA45004A8F78 /* wikipedia-gu.xml */,
+				DA56F4892086DA45004A8F78 /* wikipedia-he.xml */,
+				DA56F48A2086DA45004A8F78 /* wikipedia-hi.xml */,
+				DA56F48B2086DA45004A8F78 /* wikipedia-hr.xml */,
+				DA56F48C2086DA45004A8F78 /* wikipedia-hsb.xml */,
+				DA56F48D2086DA45004A8F78 /* wikipedia-hu.xml */,
+				DA56F48E2086DA45004A8F78 /* wikipedia-hy-AM.xml */,
+				DA56F48F2086DA45004A8F78 /* wikipedia-ia.xml */,
+				DA56F4902086DA45004A8F78 /* wikipedia-id.xml */,
+				DA56F4912086DA45004A8F78 /* wikipedia-is.xml */,
+				DA56F4922086DA45004A8F78 /* wikipedia-it.xml */,
+				DA56F4932086DA45004A8F78 /* wikipedia-ja.xml */,
+				DA56F4942086DA45004A8F78 /* wikipedia-ka.xml */,
+				DA56F4952086DA45004A8F78 /* wikipedia-kab.xml */,
+				DA56F4962086DA45004A8F78 /* wikipedia-kk.xml */,
+				DA56F4972086DA45004A8F78 /* wikipedia-km.xml */,
+				DA56F4982086DA45004A8F78 /* wikipedia-kn.xml */,
+				DA56F4992086DA45004A8F78 /* wikipedia-lo.xml */,
+				DA56F49A2086DA45004A8F78 /* wikipedia-lt.xml */,
+				DA56F49B2086DA45004A8F78 /* wikipedia-ltg.xml */,
+				DA56F49C2086DA45004A8F78 /* wikipedia-lv.xml */,
+				DA56F49D2086DA45004A8F78 /* wikipedia-ml.xml */,
+				DA56F49E2086DA45004A8F78 /* wikipedia-mr.xml */,
+				DA56F49F2086DA45004A8F78 /* wikipedia-ms.xml */,
+				DA56F4A02086DA45004A8F78 /* wikipedia-my.xml */,
+				DA56F4A12086DA45004A8F78 /* wikipedia-ne.xml */,
+				DA56F4A22086DA45004A8F78 /* wikipedia-nl.xml */,
+				DA56F4A32086DA45004A8F78 /* wikipedia-NN.xml */,
+				DA56F4A42086DA45004A8F78 /* wikipedia-NO.xml */,
+				DA56F4A52086DA45004A8F78 /* wikipedia-oc.xml */,
+				DA56F4A62086DA45004A8F78 /* wikipedia-or.xml */,
+				DA56F4A72086DA45004A8F78 /* wikipedia-pa.xml */,
+				DA56F4A82086DA45004A8F78 /* wikipedia-pl.xml */,
+				DA56F4A92086DA45004A8F78 /* wikipedia-pt.xml */,
+				DA56F4AA2086DA45004A8F78 /* wikipedia-rm.xml */,
+				DA56F4AB2086DA45004A8F78 /* wikipedia-ro.xml */,
+				DA56F4AC2086DA45004A8F78 /* wikipedia-ru.xml */,
+				DA56F4AD2086DA45004A8F78 /* wikipedia-sk.xml */,
+				DA56F4AE2086DA45004A8F78 /* wikipedia-sl.xml */,
+				DA56F4AF2086DA45004A8F78 /* wikipedia-sq.xml */,
+				DA56F4B02086DA45004A8F78 /* wikipedia-sr.xml */,
+				DA56F4B12086DA45004A8F78 /* wikipedia-sv-SE.xml */,
+				DA56F4B22086DA45004A8F78 /* wikipedia-ta.xml */,
+				DA56F4B32086DA45004A8F78 /* wikipedia-te.xml */,
+				DA56F4B42086DA45004A8F78 /* wikipedia-th.xml */,
+				DA56F4B52086DA45004A8F78 /* wikipedia-tr.xml */,
+				DA56F4B62086DA45004A8F78 /* wikipedia-uk.xml */,
+				DA56F4B72086DA45004A8F78 /* wikipedia-ur.xml */,
+				DA56F4B82086DA45004A8F78 /* wikipedia-uz.xml */,
+				DA56F4B92086DA45004A8F78 /* wikipedia-vi.xml */,
+				DA56F4BA2086DA45004A8F78 /* wikipedia-wo.xml */,
+				DA56F4BB2086DA45004A8F78 /* wikipedia-zh-CN.xml */,
+				DA56F4BC2086DA45004A8F78 /* wikipedia-zh-TW.xml */,
+				DA56F4BD2086DA45004A8F78 /* wikipedia.xml */,
+				DA56F4BE2086DA45004A8F78 /* wiktionary-kn.xml */,
+				DA56F4BF2086DA45004A8F78 /* wiktionary-oc.xml */,
+				DA56F4C02086DA45004A8F78 /* wiktionary-or.xml */,
+				DA56F4C12086DA45004A8F78 /* wiktionary-ta.xml */,
+				DA56F4C22086DA45004A8F78 /* wiktionary-te.xml */,
+				DA56F4C32086DA45004A8F78 /* yahoo-jp.xml */,
+				DA56F4C42086DA45004A8F78 /* yandex-market.xml */,
+				DA56F4C52086DA45004A8F78 /* yandex-ru.xml */,
+				DA56F4C62086DA45004A8F78 /* yandex-tr.xml */,
+				DA56F4C72086DA45004A8F78 /* yandex.by.xml */,
+				DA56F4C82086DA45004A8F78 /* yandex.xml */,
+			);
+			path = SearchPlugins;
+			sourceTree = "<group>";
+		};
+		DA56F4C92086DA45004A8F78 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F4CA2086DA45004A8F78 /* Base */,
+				DA56F4CC2086DA45004A8F78 /* Expected */,
+				DA56F4CF2086DA45004A8F78 /* Overlays */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DA56F4CA2086DA45004A8F78 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F4CB2086DA45004A8F78 /* testplugin.xml */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DA56F4CC2086DA45004A8F78 /* Expected */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F4CD2086DA45004A8F78 /* append.xml */,
+				DA56F4CE2086DA45004A8F78 /* replace.xml */,
+			);
+			path = Expected;
+			sourceTree = "<group>";
+		};
+		DA56F4CF2086DA45004A8F78 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F4D02086DA45004A8F78 /* append.xml */,
+				DA56F4D12086DA45004A8F78 /* replace.xml */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
+		DA56F4D62086DA45004A8F78 /* TopSites */ = {
+			isa = PBXGroup;
+			children = (
+				DA56F4D72086DA45004A8F78 /* aa-com.png */,
+				DA56F4D82086DA45004A8F78 /* abcnews-go-com.png */,
+				DA56F4D92086DA45004A8F78 /* about-com.png */,
+				DA56F4DA2086DA45004A8F78 /* accuweather-com.png */,
+				DA56F4DB2086DA45004A8F78 /* adobe-com.png */,
+				DA56F4DC2086DA45004A8F78 /* adp-com.png */,
+				DA56F4DD2086DA45004A8F78 /* airbnb-com.png */,
+				DA56F4DE2086DA45004A8F78 /* allrecipes-com.png */,
+				DA56F4DF2086DA45004A8F78 /* amazon-com.png */,
+				DA56F4E02086DA45004A8F78 /* amazonaws-com.png */,
+				DA56F4E12086DA45004A8F78 /* americanexpress-com.png */,
+				DA56F4E22086DA45004A8F78 /* ancestry-com.png */,
+				DA56F4E32086DA45004A8F78 /* answers-com.png */,
+				DA56F4E42086DA45004A8F78 /* aol-com.png */,
+				DA56F4E52086DA45004A8F78 /* apple-com.png */,
+				DA56F4E62086DA45004A8F78 /* ask-com.png */,
+				DA56F4E72086DA45004A8F78 /* att-com.png */,
+				DA56F4E82086DA45004A8F78 /* baidu-com.png */,
+				DA56F4E92086DA45004A8F78 /* bankofamerica-com.png */,
+				DA56F4EA2086DA45004A8F78 /* bbc-com.png */,
+				DA56F4EB2086DA45004A8F78 /* bestbuy-com.png */,
+				DA56F4EC2086DA45004A8F78 /* bing-com.png */,
+				DA56F4ED2086DA45004A8F78 /* blackboard-com.png */,
+				DA56F4EE2086DA45004A8F78 /* bleacherreport-com.png */,
+				DA56F4EF2086DA45004A8F78 /* blogger-com.png */,
+				DA56F4F02086DA45004A8F78 /* box-com.png */,
+				DA56F4F12086DA45004A8F78 /* businessinsider-com.png */,
+				DA56F4F22086DA45004A8F78 /* buzzfeed-com.png */,
+				DA56F4F32086DA45004A8F78 /* buzzlie-com.png */,
+				DA56F4F42086DA45004A8F78 /* ca-gov.png */,
+				DA56F4F52086DA45004A8F78 /* capitalone-com.png */,
+				DA56F4F62086DA45004A8F78 /* cbsnews-com.png */,
+				DA56F4F72086DA45004A8F78 /* cbssports-com.png */,
+				DA56F4F82086DA45004A8F78 /* chase-com.png */,
+				DA56F4F92086DA45004A8F78 /* citi-com.png */,
+				DA56F4FA2086DA45004A8F78 /* cnet-com.png */,
+				DA56F4FB2086DA45004A8F78 /* cnn-com.png */,
+				DA56F4FC2086DA45004A8F78 /* conservativetribune-com.png */,
+				DA56F4FD2086DA45004A8F78 /* costco-com.png */,
+				DA56F4FE2086DA45004A8F78 /* craigslist-org.png */,
+				DA56F4FF2086DA45004A8F78 /* dailybeast-com.png */,
+				DA56F5002086DA45004A8F78 /* dailymail-co-uk.png */,
+				DA56F5012086DA45004A8F78 /* delta-com.png */,
+				DA56F5022086DA45004A8F78 /* deviantart-com.png */,
+				DA56F5032086DA45004A8F78 /* digg-com.png */,
+				DA56F5042086DA45004A8F78 /* diply-com.png */,
+				DA56F5052086DA45004A8F78 /* discovercard-com.png */,
+				DA56F5062086DA45004A8F78 /* dropbox-com.png */,
+				DA56F5072086DA45004A8F78 /* drudgereport-com.png */,
+				DA56F5082086DA45004A8F78 /* ebates-com.png */,
+				DA56F5092086DA45004A8F78 /* ebay-com.png */,
+				DA56F50A2086DA45004A8F78 /* espn-go-com.png */,
+				DA56F50B2086DA45004A8F78 /* etsy-com.png */,
+				DA56F50C2086DA45004A8F78 /* eventbrite-com.png */,
+				DA56F50D2086DA45004A8F78 /* expedia-com.png */,
+				DA56F50E2086DA45004A8F78 /* facebook-com.png */,
+				DA56F50F2086DA45004A8F78 /* faithtap-com.png */,
+				DA56F5102086DA45004A8F78 /* fedex-com.png */,
+				DA56F5112086DA45004A8F78 /* feedly-com.png */,
+				DA56F5122086DA45004A8F78 /* fitbit-com.png */,
+				DA56F5132086DA45004A8F78 /* flickr-com.png */,
+				DA56F5142086DA45004A8F78 /* foodnetwork-com.png */,
+				DA56F5152086DA45004A8F78 /* forbes-com.png */,
+				DA56F5162086DA45004A8F78 /* foxnews-com.png */,
+				DA56F5172086DA45004A8F78 /* gap-com.png */,
+				DA56F5182086DA45004A8F78 /* gawker-com.png */,
+				DA56F5192086DA45004A8F78 /* gfycat-com.png */,
+				DA56F51A2086DA45004A8F78 /* github-com.png */,
+				DA56F51B2086DA45004A8F78 /* gizmodo-com.png */,
+				DA56F51C2086DA45004A8F78 /* glassdoor-com.png */,
+				DA56F51D2086DA45004A8F78 /* go-com.png */,
+				DA56F51E2086DA45004A8F78 /* goodreads-com.png */,
+				DA56F51F2086DA45004A8F78 /* google-admin.png */,
+				DA56F5202086DA45004A8F78 /* google-calendar.png */,
+				DA56F5212086DA45004A8F78 /* google-com.png */,
+				DA56F5222086DA45004A8F78 /* google-contacts.png */,
+				DA56F5232086DA45004A8F78 /* google-docs.png */,
+				DA56F5242086DA45004A8F78 /* google-drive.png */,
+				DA56F5252086DA45004A8F78 /* google-forms.png */,
+				DA56F5262086DA45004A8F78 /* google-gmail.png */,
+				DA56F5272086DA45004A8F78 /* google-groups.png */,
+				DA56F5282086DA45004A8F78 /* google-hangouts.png */,
+				DA56F5292086DA45004A8F78 /* google-photos.png */,
+				DA56F52A2086DA45004A8F78 /* google-plus.png */,
+				DA56F52B2086DA45004A8F78 /* google-sheets.png */,
+				DA56F52C2086DA45004A8F78 /* google-sites.png */,
+				DA56F52D2086DA45004A8F78 /* google-slides.png */,
+				DA56F52E2086DA45004A8F78 /* groupon-com.png */,
+				DA56F52F2086DA45004A8F78 /* homedepot-com.png */,
+				DA56F5302086DA45004A8F78 /* houzz-com.png */,
+				DA56F5312086DA45004A8F78 /* huffingtonpost-com.png */,
+				DA56F5322086DA45004A8F78 /* hulu-com.png */,
+				DA56F5332086DA45004A8F78 /* ign-com.png */,
+				DA56F5342086DA45004A8F78 /* ikea-com.png */,
+				DA56F5352086DA45004A8F78 /* images-google-com.png */,
+				DA56F5362086DA45004A8F78 /* imdb-com.png */,
+				DA56F5372086DA45004A8F78 /* imgur-com.png */,
+				DA56F5382086DA45004A8F78 /* instagram-com.png */,
+				DA56F5392086DA45004A8F78 /* instructure-com.png */,
+				DA56F53A2086DA45004A8F78 /* intuit-com.png */,
+				DA56F53B2086DA45004A8F78 /* invision-com.png */,
+				DA56F53C2086DA45004A8F78 /* irs-gov.png */,
+				DA56F53D2086DA45004A8F78 /* jcpenney-com.png */,
+				DA56F53E2086DA45004A8F78 /* jd-com.png */,
+				DA56F53F2086DA45004A8F78 /* kayak-com.png */,
+				DA56F5402086DA45004A8F78 /* kohls-com.png */,
+				DA56F5412086DA45004A8F78 /* latimes-com.png */,
+				DA56F5422086DA45004A8F78 /* lifehacker-com.png */,
+				DA56F5432086DA45004A8F78 /* linkedin-com.png */,
+				DA56F5442086DA45004A8F78 /* live-com.png */,
+				DA56F5452086DA45004A8F78 /* lowes-com.png */,
+				DA56F5462086DA45004A8F78 /* macys-com.png */,
+				DA56F5472086DA45004A8F78 /* mapquest-com.png */,
+				DA56F5482086DA45004A8F78 /* mashable-com.png */,
+				DA56F5492086DA45004A8F78 /* microsoft-com.png */,
+				DA56F54A2086DA45004A8F78 /* microsoftonline-com.png */,
+				DA56F54B2086DA45004A8F78 /* mlb-com.png */,
+				DA56F54C2086DA45004A8F78 /* mozilla-com.png */,
+				DA56F54D2086DA45004A8F78 /* msn-com.png */,
+				DA56F54E2086DA45004A8F78 /* nbcnews-com.png */,
+				DA56F54F2086DA45004A8F78 /* netflix-com.png */,
+				DA56F5502086DA45004A8F78 /* newegg-com.png */,
+				DA56F5512086DA45004A8F78 /* news-ycombinator-com.png */,
+				DA56F5522086DA45004A8F78 /* nih-gov.png */,
+				DA56F5532086DA45004A8F78 /* nordstrom-com.png */,
+				DA56F5542086DA45004A8F78 /* npr-org.png */,
+				DA56F5552086DA45004A8F78 /* nypost-com.png */,
+				DA56F5562086DA45004A8F78 /* nytimes-com.png */,
+				DA56F5572086DA45004A8F78 /* office-com.png */,
+				DA56F5582086DA45004A8F78 /* overstock-com.png */,
+				DA56F5592086DA45004A8F78 /* pandora-com.png */,
+				DA56F55A2086DA45004A8F78 /* patch-com.png */,
+				DA56F55B2086DA45004A8F78 /* paypal-com.png */,
+				DA56F55C2086DA45004A8F78 /* people-com.png */,
+				DA56F55D2086DA45004A8F78 /* pinterest-com.png */,
+				DA56F55E2086DA45004A8F78 /* politico-com.png */,
+				DA56F55F2086DA45004A8F78 /* qq-com.png */,
+				DA56F5602086DA45004A8F78 /* quora-com.png */,
+				DA56F5612086DA45004A8F78 /* realtor-com.png */,
+				DA56F5622086DA45004A8F78 /* reddit-com.png */,
+				DA56F5632086DA45004A8F78 /* salesforce-com.png */,
+				DA56F5642086DA45004A8F78 /* sears-com.png */,
+				DA56F5652086DA45004A8F78 /* sina-com.png */,
+				DA56F5662086DA45004A8F78 /* slate-com.png */,
+				DA56F5672086DA45004A8F78 /* slickdeals-net.png */,
+				DA56F5682086DA45004A8F78 /* soundcloud-com.png */,
+				DA56F5692086DA45004A8F78 /* southwest-com.png */,
+				DA56F56A2086DA45004A8F78 /* spotify-com.png */,
+				DA56F56B2086DA45004A8F78 /* stackexchange-com.png */,
+				DA56F56C2086DA45004A8F78 /* stackoverflow-com.png */,
+				DA56F56D2086DA45004A8F78 /* staples-com.png */,
+				DA56F56E2086DA45004A8F78 /* strava-com.png */,
+				DA56F56F2086DA45004A8F78 /* surveymonkey-com.png */,
+				DA56F5702086DA45004A8F78 /* swagbucks-com.png */,
+				DA56F5712086DA45004A8F78 /* t-mobile-com.png */,
+				DA56F5722086DA45004A8F78 /* taboola-com.png */,
+				DA56F5732086DA45004A8F78 /* talkingpointsmemo-com.png */,
+				DA56F5742086DA45004A8F78 /* taobao-com.png */,
+				DA56F5752086DA45004A8F78 /* target-com.png */,
+				DA56F5762086DA45004A8F78 /* thedailybeast-com.png */,
+				DA56F5772086DA45004A8F78 /* theguardian-com.png */,
+				DA56F5782086DA45004A8F78 /* thesaurus-com.png */,
+				DA56F5792086DA45004A8F78 /* ticketmaster-com.png */,
+				DA56F57A2086DA45004A8F78 /* tripadvisor-com.png */,
+				DA56F57B2086DA45004A8F78 /* trulia-com.png */,
+				DA56F57C2086DA45004A8F78 /* tumblr-com.png */,
+				DA56F57D2086DA45004A8F78 /* twitch-tv.png */,
+				DA56F57E2086DA45004A8F78 /* twitter-com.png */,
+				DA56F57F2086DA45004A8F78 /* ups-com.png */,
+				DA56F5802086DA45004A8F78 /* usaa-com.png */,
+				DA56F5812086DA45004A8F78 /* usatoday-com.png */,
+				DA56F5822086DA45004A8F78 /* usbank-com.png */,
+				DA56F5832086DA45004A8F78 /* usps-com.png */,
+				DA56F5842086DA45004A8F78 /* verizon-com.png */,
+				DA56F5852086DA45004A8F78 /* verizonwireless-com.png */,
+				DA56F5862086DA45004A8F78 /* vice-com.png */,
+				DA56F5872086DA45004A8F78 /* vimeo-com.png */,
+				DA56F5882086DA45004A8F78 /* walmart-com.png */,
+				DA56F5892086DA45004A8F78 /* washingtonpost-com.png */,
+				DA56F58A2086DA45004A8F78 /* wayfair-com.png */,
+				DA56F58B2086DA45004A8F78 /* weather-com.png */,
+				DA56F58C2086DA45004A8F78 /* webmd-com.png */,
+				DA56F58D2086DA45004A8F78 /* wellsfargo-com.png */,
+				DA56F58E2086DA45004A8F78 /* wikia-com.png */,
+				DA56F58F2086DA45004A8F78 /* wikihow-com.png */,
+				DA56F5902086DA45004A8F78 /* wikipedia-org.png */,
+				DA56F5912086DA45004A8F78 /* wired-com.png */,
+				DA56F5922086DA45004A8F78 /* wittyfeed-com.png */,
+				DA56F5932086DA45004A8F78 /* wordpress-com.png */,
+				DA56F5942086DA45004A8F78 /* wsj-com.png */,
+				DA56F5952086DA45004A8F78 /* wunderground-com.png */,
+				DA56F5962086DA45004A8F78 /* xfinity-com.png */,
+				DA56F5972086DA45004A8F78 /* yahoo-com.png */,
+				DA56F5982086DA45004A8F78 /* yelp-com.png */,
+				DA56F5992086DA45004A8F78 /* youtube-com.png */,
+				DA56F59A2086DA45004A8F78 /* zillow-com.png */,
+			);
+			path = TopSites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1048,8 +2322,401 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				DA56F77F2086DA46004A8F78 /* houzz-com.png in Resources */,
+				DA56F6E92086DA46004A8F78 /* wikipedia-kab.xml in Resources */,
+				DA56F72F2086DA46004A8F78 /* amazonaws-com.png in Resources */,
+				DA56F7B42086DA46004A8F78 /* sina-com.png in Resources */,
+				DA56F7C62086DA46004A8F78 /* theguardian-com.png in Resources */,
+				DA56F6F42086DA46004A8F78 /* wikipedia-my.xml in Resources */,
+				DA56F66D2086DA46004A8F78 /* FiraSans-Bold.ttf in Resources */,
+				DA56F6EC2086DA46004A8F78 /* wikipedia-kn.xml in Resources */,
+				DA56F6792086DA46004A8F78 /* MainFrameAtDocumentStart.js in Resources */,
+				DA56F70C2086DA46004A8F78 /* wikipedia-uz.xml in Resources */,
+				DA56F6BF2086DA46004A8F78 /* wikipedia-an.xml in Resources */,
+				DA56F7722086DA46004A8F78 /* google-docs.png in Resources */,
+				DA56F6FE2086DA46004A8F78 /* wikipedia-rm.xml in Resources */,
+				DA56F7592086DA46004A8F78 /* espn-go-com.png in Resources */,
+				DA56F6802086DA46004A8F78 /* baidu.xml in Resources */,
+				DA56F7612086DA46004A8F78 /* fitbit-com.png in Resources */,
+				DA56F6842086DA46004A8F78 /* yahoo.xml in Resources */,
+				DA56F75F2086DA46004A8F78 /* fedex-com.png in Resources */,
+				DA56F8A02086DB48004A8F78 /* Home.xcassets in Resources */,
+				DA56F79C2086DA46004A8F78 /* msn-com.png in Resources */,
+				DA56F76D2086DA46004A8F78 /* goodreads-com.png in Resources */,
+				DA56F7452086DA46004A8F78 /* cbsnews-com.png in Resources */,
+				DA56F68D2086DA46004A8F78 /* amazon-mx.xml in Resources */,
+				DA56F6952086DA46004A8F78 /* bolcom-nl.xml in Resources */,
+				DA56F6752086DA46004A8F78 /* FiraSans-UltraLight.ttf in Resources */,
+				DA56F6FA2086DA46004A8F78 /* wikipedia-or.xml in Resources */,
+				DA56F7C02086DA46004A8F78 /* t-mobile-com.png in Resources */,
+				DA56F7392086DA46004A8F78 /* bbc-com.png in Resources */,
+				DA56F70A2086DA46004A8F78 /* wikipedia-uk.xml in Resources */,
+				DA56F6E42086DA46004A8F78 /* wikipedia-id.xml in Resources */,
+				DA56F69D2086DA46004A8F78 /* duckduckgo.xml in Resources */,
+				DA56F73D2086DA46004A8F78 /* bleacherreport-com.png in Resources */,
+				DA56F7BA2086DA46004A8F78 /* stackexchange-com.png in Resources */,
+				DA56F77D2086DA46004A8F78 /* groupon-com.png in Resources */,
+				DA56F7412086DA46004A8F78 /* buzzfeed-com.png in Resources */,
+				DA56F76E2086DA46004A8F78 /* google-admin.png in Resources */,
+				DA56F69B2086DA46004A8F78 /* diec2.xml in Resources */,
+				DA56F7042086DA46004A8F78 /* wikipedia-sr.xml in Resources */,
+				DA56F6E52086DA46004A8F78 /* wikipedia-is.xml in Resources */,
+				DA56F6F72086DA46004A8F78 /* wikipedia-NN.xml in Resources */,
+				DA56F7332086DA46004A8F78 /* aol-com.png in Resources */,
+				DA56F7432086DA46004A8F78 /* ca-gov.png in Resources */,
+				DA56F7802086DA46004A8F78 /* huffingtonpost-com.png in Resources */,
+				DA56F78B2086DA46004A8F78 /* irs-gov.png in Resources */,
+				DA56F7152086DA46004A8F78 /* wiktionary-ta.xml in Resources */,
+				DA56F7A82086DA46004A8F78 /* pandora-com.png in Resources */,
+				DA56F6A92086DA46004A8F78 /* mapy-cz.xml in Resources */,
+				DA56F6A32086DA46004A8F78 /* gulesider-mobile-NO.xml in Resources */,
+				DA56F78D2086DA46004A8F78 /* jd-com.png in Resources */,
+				DA56F66F2086DA46004A8F78 /* FiraSans-Book.ttf in Resources */,
+				DA56F7852086DA46004A8F78 /* imdb-com.png in Resources */,
+				DA56F6982086DA46004A8F78 /* danawa-kr.xml in Resources */,
+				DA56F6C32086DA46004A8F78 /* wikipedia-az.xml in Resources */,
+				DA56F7762086DA46004A8F78 /* google-groups.png in Resources */,
+				DA56F7D02086DA46004A8F78 /* usatoday-com.png in Resources */,
+				DA56F68B2086DA46004A8F78 /* amazon-in.xml in Resources */,
+				DA56F70B2086DA46004A8F78 /* wikipedia-ur.xml in Resources */,
+				DA56F6D92086DA46004A8F78 /* wikipedia-gd.xml in Resources */,
+				DA56F6A72086DA46004A8F78 /* list-am.xml in Resources */,
+				DA56F7542086DA46004A8F78 /* discovercard-com.png in Resources */,
+				DA56F73E2086DA46004A8F78 /* blogger-com.png in Resources */,
+				DA56F7CD2086DA46004A8F78 /* twitter-com.png in Resources */,
+				DA56F7922086DA46004A8F78 /* linkedin-com.png in Resources */,
+				DA56F6C92086DA46004A8F78 /* wikipedia-ca.xml in Resources */,
+				DA56F6BE2086DA46004A8F78 /* vatera.xml in Resources */,
+				DA56F7262086DA46004A8F78 /* aa-com.png in Resources */,
+				DA56F6F22086DA46004A8F78 /* wikipedia-mr.xml in Resources */,
+				DA56F7DA2086DA46004A8F78 /* weather-com.png in Resources */,
+				DA56F7312086DA46004A8F78 /* ancestry-com.png in Resources */,
+				DA56F7A72086DA46004A8F78 /* overstock-com.png in Resources */,
+				DA56F6C52086DA46004A8F78 /* wikipedia-bg.xml in Resources */,
+				DA56F7D92086DA46004A8F78 /* wayfair-com.png in Resources */,
+				DA56F6E02086DA46004A8F78 /* wikipedia-hsb.xml in Resources */,
+				DA56F67D2086DA46004A8F78 /* README.md in Resources */,
+				DA56F6E22086DA46004A8F78 /* wikipedia-hy-AM.xml in Resources */,
+				DA56F6992086DA46004A8F78 /* daum-kr.xml in Resources */,
+				DA56F6872086DA46004A8F78 /* amazon-ca.xml in Resources */,
+				DA56F7D52086DA46004A8F78 /* vice-com.png in Resources */,
+				DA56F6962086DA46004A8F78 /* ceneje.xml in Resources */,
+				DA56F7A32086DA46004A8F78 /* npr-org.png in Resources */,
+				DA56F7D42086DA46004A8F78 /* verizonwireless-com.png in Resources */,
+				DA56F7202086DA46004A8F78 /* append.xml in Resources */,
+				DA56F74A2086DA46004A8F78 /* cnn-com.png in Resources */,
+				DA56F7602086DA46004A8F78 /* feedly-com.png in Resources */,
+				DA56F7192086DA46004A8F78 /* yandex-ru.xml in Resources */,
+				DA56F71F2086DA46004A8F78 /* replace.xml in Resources */,
+				DA56F6742086DA46004A8F78 /* FiraSans-SemiBold.ttf in Resources */,
+				DA56F7292086DA46004A8F78 /* accuweather-com.png in Resources */,
+				DA56F6A22086DA46004A8F78 /* google.xml in Resources */,
+				DA56F7002086DA46004A8F78 /* wikipedia-ru.xml in Resources */,
+				DA56F6CD2086DA46004A8F78 /* wikipedia-de.xml in Resources */,
+				DA56F7862086DA46004A8F78 /* imgur-com.png in Resources */,
+				DA56F74B2086DA46004A8F78 /* conservativetribune-com.png in Resources */,
+				DA56F75D2086DA46004A8F78 /* facebook-com.png in Resources */,
+				DA56F76C2086DA46004A8F78 /* go-com.png in Resources */,
+				DA56F7BE2086DA46004A8F78 /* surveymonkey-com.png in Resources */,
+				DA56F7B82086DA46004A8F78 /* southwest-com.png in Resources */,
+				DA56F73C2086DA46004A8F78 /* blackboard-com.png in Resources */,
+				DA56F6F32086DA46004A8F78 /* wikipedia-ms.xml in Resources */,
+				DA56F69F2086DA46004A8F78 /* faclair-beag.xml in Resources */,
+				DA56F8A22086DB48004A8F78 /* Menu.xcassets in Resources */,
+				DA56F7562086DA46004A8F78 /* drudgereport-com.png in Resources */,
+				DA56F66B2086DA46004A8F78 /* CharisSILI.ttf in Resources */,
+				DA56F78A2086DA46004A8F78 /* invision-com.png in Resources */,
+				DA56F7892086DA46004A8F78 /* intuit-com.png in Resources */,
+				DA56F6B02086DA46004A8F78 /* prisjakt-sv-SE.xml in Resources */,
+				DA56F77A2086DA46004A8F78 /* google-sheets.png in Resources */,
+				DA56F7092086DA46004A8F78 /* wikipedia-tr.xml in Resources */,
+				DA56F6892086DA46004A8F78 /* amazon-de.xml in Resources */,
+				DA56F6BA2086DA46004A8F78 /* taobao.xml in Resources */,
+				DA56F7282086DA46004A8F78 /* about-com.png in Resources */,
+				DA56F6B92086DA46004A8F78 /* sztaki-en-hu.xml in Resources */,
+				DA56F6BD2086DA46004A8F78 /* twitter.xml in Resources */,
+				DA56F6AA2086DA46004A8F78 /* mercadolibre-ar.xml in Resources */,
+				DA56F7102086DA46004A8F78 /* wikipedia-zh-TW.xml in Resources */,
+				DA56F7982086DA46004A8F78 /* microsoft-com.png in Resources */,
+				DA56F7232086DA46004A8F78 /* SpotlightHelper.js in Resources */,
+				DA56F6D22086DA46004A8F78 /* wikipedia-et.xml in Resources */,
+				DA56F73F2086DA46004A8F78 /* box-com.png in Resources */,
+				DA56F6C82086DA46004A8F78 /* wikipedia-bs.xml in Resources */,
+				DA56F7B32086DA46004A8F78 /* sears-com.png in Resources */,
+				DA56F6882086DA46004A8F78 /* amazon-co-uk.xml in Resources */,
+				DA56F6E82086DA46004A8F78 /* wikipedia-ka.xml in Resources */,
+				DA56F7872086DA46004A8F78 /* instagram-com.png in Resources */,
+				DA56F6C02086DA46004A8F78 /* wikipedia-ar.xml in Resources */,
+				DA56F6C12086DA46004A8F78 /* wikipedia-as.xml in Resources */,
+				DA56F7A52086DA46004A8F78 /* nytimes-com.png in Resources */,
+				DA56F7252086DA46004A8F78 /* topdomains.txt in Resources */,
+				DA56F6D72086DA46004A8F78 /* wikipedia-fy-NL.xml in Resources */,
+				DA56F72B2086DA46004A8F78 /* adp-com.png in Resources */,
+				DA56F7122086DA46004A8F78 /* wiktionary-kn.xml in Resources */,
+				DA56F6CE2086DA46004A8F78 /* wikipedia-dsb.xml in Resources */,
+				DA56F76B2086DA46004A8F78 /* glassdoor-com.png in Resources */,
+				DA56F7822086DA46004A8F78 /* ign-com.png in Resources */,
+				DA56F7C52086DA46004A8F78 /* thedailybeast-com.png in Resources */,
+				DA56F70E2086DA46004A8F78 /* wikipedia-wo.xml in Resources */,
+				DA56F79D2086DA46004A8F78 /* nbcnews-com.png in Resources */,
+				DA56F7062086DA46004A8F78 /* wikipedia-ta.xml in Resources */,
+				DA56F7792086DA46004A8F78 /* google-plus.png in Resources */,
+				DA56F7CB2086DA46004A8F78 /* tumblr-com.png in Resources */,
+				DA56F7782086DA46004A8F78 /* google-photos.png in Resources */,
+				DA56F71C2086DA46004A8F78 /* yandex.xml in Resources */,
+				DA56F7C32086DA46004A8F78 /* taobao-com.png in Resources */,
+				DA56F69E2086DA46004A8F78 /* elebila.xml in Resources */,
+				DA56F7672086DA46004A8F78 /* gawker-com.png in Resources */,
+				DA56F6DE2086DA46004A8F78 /* wikipedia-hi.xml in Resources */,
+				DA56F73B2086DA46004A8F78 /* bing-com.png in Resources */,
+				DA56F74D2086DA46004A8F78 /* craigslist-org.png in Resources */,
+				DA56F7532086DA46004A8F78 /* diply-com.png in Resources */,
+				DA56F7E82086DA46004A8F78 /* youtube-com.png in Resources */,
+				DA56F7522086DA46004A8F78 /* digg-com.png in Resources */,
+				DA56F69A2086DA46004A8F78 /* ddg.xml in Resources */,
+				DA56F7B02086DA46004A8F78 /* realtor-com.png in Resources */,
+				DA56F6E72086DA46004A8F78 /* wikipedia-ja.xml in Resources */,
+				DA56F74F2086DA46004A8F78 /* dailymail-co-uk.png in Resources */,
+				DA56F6B12086DA46004A8F78 /* qwant.xml in Resources */,
+				DA56F6922086DA46004A8F78 /* baidu.xml in Resources */,
+				DA56F6CF2086DA46004A8F78 /* wikipedia-el.xml in Resources */,
+				DA56F6DF2086DA46004A8F78 /* wikipedia-hr.xml in Resources */,
+				DA56F7D62086DA46004A8F78 /* vimeo-com.png in Resources */,
+				DA56F6712086DA46004A8F78 /* FiraSans-Light.ttf in Resources */,
+				DA56F7222086DA46004A8F78 /* SessionRestore.html in Resources */,
+				DA56F72A2086DA46004A8F78 /* adobe-com.png in Resources */,
+				DA56F79F2086DA46004A8F78 /* newegg-com.png in Resources */,
+				DA56F7952086DA46004A8F78 /* macys-com.png in Resources */,
+				DA56F6F02086DA46004A8F78 /* wikipedia-lv.xml in Resources */,
+				DA56F6AF2086DA46004A8F78 /* pledarigrond.xml in Resources */,
+				DA56F6762086DA46004A8F78 /* FxASignIn.js in Resources */,
+				DA56F6AE2086DA46004A8F78 /* odpiralni.xml in Resources */,
+				DA56F7A62086DA46004A8F78 /* office-com.png in Resources */,
+				DA56F68E2086DA46004A8F78 /* amazon-nl.xml in Resources */,
+				DA56F6722086DA46004A8F78 /* FiraSans-Medium.ttf in Resources */,
+				DA56F71D2086DA46004A8F78 /* testplugin.xml in Resources */,
+				DA56F7B22086DA46004A8F78 /* salesforce-com.png in Resources */,
+				DA56F6CB2086DA46004A8F78 /* wikipedia-cz.xml in Resources */,
+				DA56F6EE2086DA46004A8F78 /* wikipedia-lt.xml in Resources */,
+				DA56F66A2086DA46004A8F78 /* CharisSILBI.ttf in Resources */,
+				DA56F6F12086DA46004A8F78 /* wikipedia-ml.xml in Resources */,
+				DA56F6DB2086DA46004A8F78 /* wikipedia-gn.xml in Resources */,
+				DA56F7DF2086DA46004A8F78 /* wikipedia-org.png in Resources */,
+				DA56F7112086DA46004A8F78 /* wikipedia.xml in Resources */,
+				DA56F6E32086DA46004A8F78 /* wikipedia-ia.xml in Resources */,
+				DA56F77E2086DA46004A8F78 /* homedepot-com.png in Resources */,
+				DA56F7DD2086DA46004A8F78 /* wikia-com.png in Resources */,
+				DA56F7242086DA46004A8F78 /* top_sites.json in Resources */,
+				DA56F68F2086DA46004A8F78 /* amazondotcom.xml in Resources */,
+				DA56F7482086DA46004A8F78 /* citi-com.png in Resources */,
+				DA56F68A2086DA46004A8F78 /* amazon-fr.xml in Resources */,
+				DA56F7A22086DA46004A8F78 /* nordstrom-com.png in Resources */,
+				DA56F74E2086DA46004A8F78 /* dailybeast-com.png in Resources */,
+				DA56F6E12086DA46004A8F78 /* wikipedia-hu.xml in Resources */,
+				DA56F75B2086DA46004A8F78 /* eventbrite-com.png in Resources */,
+				DA56F6BC2086DA46004A8F78 /* twitter-ja.xml in Resources */,
+				DA56F7E32086DA46004A8F78 /* wsj-com.png in Resources */,
+				DA56F6EA2086DA46004A8F78 /* wikipedia-kk.xml in Resources */,
+				DA56F6822086DA46004A8F78 /* duckduckgo.xml in Resources */,
+				DA56F7362086DA46004A8F78 /* att-com.png in Resources */,
+				DA56F7642086DA46004A8F78 /* forbes-com.png in Resources */,
+				DA56F7082086DA46004A8F78 /* wikipedia-th.xml in Resources */,
+				DA56F7382086DA46004A8F78 /* bankofamerica-com.png in Resources */,
+				DA56F7742086DA46004A8F78 /* google-forms.png in Resources */,
+				DA56F7322086DA46004A8F78 /* answers-com.png in Resources */,
+				DA56F7902086DA46004A8F78 /* latimes-com.png in Resources */,
+				DA56F6942086DA46004A8F78 /* bolcom-fy-NL.xml in Resources */,
+				DA56F7E22086DA46004A8F78 /* wordpress-com.png in Resources */,
+				DA56F67F2086DA46004A8F78 /* scrape_plugins.py in Resources */,
+				DA56F72C2086DA46004A8F78 /* airbnb-com.png in Resources */,
+				DA56F6EB2086DA46004A8F78 /* wikipedia-km.xml in Resources */,
+				DA56F7E02086DA46004A8F78 /* wired-com.png in Resources */,
+				DA56F77B2086DA46004A8F78 /* google-sites.png in Resources */,
+				DA56F75A2086DA46004A8F78 /* etsy-com.png in Resources */,
+				DA56F7812086DA46004A8F78 /* hulu-com.png in Resources */,
+				DA56F6C62086DA46004A8F78 /* wikipedia-bn.xml in Resources */,
+				DA56F78F2086DA46004A8F78 /* kohls-com.png in Resources */,
+				DA56F6D82086DA46004A8F78 /* wikipedia-ga-IE.xml in Resources */,
+				DA56F7AA2086DA46004A8F78 /* paypal-com.png in Resources */,
+				DA56F7552086DA46004A8F78 /* dropbox-com.png in Resources */,
+				DA56F78C2086DA46004A8F78 /* jcpenney-com.png in Resources */,
+				DA56F6D32086DA46004A8F78 /* wikipedia-eu.xml in Resources */,
+				DA56F7472086DA46004A8F78 /* chase-com.png in Resources */,
+				DA56F6D52086DA46004A8F78 /* wikipedia-fi.xml in Resources */,
+				DA56F7C42086DA46004A8F78 /* target-com.png in Resources */,
+				DA56F7DC2086DA46004A8F78 /* wellsfargo-com.png in Resources */,
+				DA56F6772086DA46004A8F78 /* Images.xcassets in Resources */,
+				DA56F7352086DA46004A8F78 /* ask-com.png in Resources */,
+				DA56F6652086DA46004A8F78 /* AllFramesAtDocumentEnd.js in Resources */,
+				DA56F7C92086DA46004A8F78 /* tripadvisor-com.png in Resources */,
+				DA56F7512086DA46004A8F78 /* deviantart-com.png in Resources */,
+				DA56F7772086DA46004A8F78 /* google-hangouts.png in Resources */,
+				DA56F7E42086DA46004A8F78 /* wunderground-com.png in Resources */,
+				DA56F7992086DA46004A8F78 /* microsoftonline-com.png in Resources */,
+				DA56F7E62086DA46004A8F78 /* yahoo-com.png in Resources */,
+				DA56F7342086DA46004A8F78 /* apple-com.png in Resources */,
+				DA56F6FF2086DA46004A8F78 /* wikipedia-ro.xml in Resources */,
+				DA56F67A2086DA46004A8F78 /* NetError.css in Resources */,
+				DA56F7372086DA46004A8F78 /* baidu-com.png in Resources */,
+				DA56F6A02086DA46004A8F78 /* google-2018.xml in Resources */,
+				DA56F6D42086DA46004A8F78 /* wikipedia-fa.xml in Resources */,
+				DA56F7662086DA46004A8F78 /* gap-com.png in Resources */,
+				DA56F7A92086DA46004A8F78 /* patch-com.png in Resources */,
+				DA56F68C2086DA46004A8F78 /* amazon-jp.xml in Resources */,
+				DA56F6862086DA46004A8F78 /* amazon-br.xml in Resources */,
+				DA56F7A02086DA46004A8F78 /* news-ycombinator-com.png in Resources */,
+				DA56F7632086DA46004A8F78 /* foodnetwork-com.png in Resources */,
+				DA56F6DD2086DA46004A8F78 /* wikipedia-he.xml in Resources */,
+				DA56F7442086DA46004A8F78 /* capitalone-com.png in Resources */,
+				DA56F7CF2086DA46004A8F78 /* usaa-com.png in Resources */,
+				DA56F6AD2086DA46004A8F78 /* naver-kr.xml in Resources */,
+				DA56F7132086DA46004A8F78 /* wiktionary-oc.xml in Resources */,
+				DA56F7022086DA46004A8F78 /* wikipedia-sl.xml in Resources */,
+				DA56F7CE2086DA46004A8F78 /* ups-com.png in Resources */,
+				DA56F6682086DA46004A8F78 /* CertError.html in Resources */,
+				DA56F6B62086DA46004A8F78 /* skroutz.xml in Resources */,
+				DA56F7272086DA46004A8F78 /* abcnews-go-com.png in Resources */,
+				DA56F71B2086DA46004A8F78 /* yandex.by.xml in Resources */,
+				DA56F6FB2086DA46004A8F78 /* wikipedia-pa.xml in Resources */,
+				DA56F7E12086DA46004A8F78 /* wittyfeed-com.png in Resources */,
+				DA56F71A2086DA46004A8F78 /* yandex-tr.xml in Resources */,
+				DA56F7912086DA46004A8F78 /* lifehacker-com.png in Resources */,
+				DA56F75E2086DA46004A8F78 /* faithtap-com.png in Resources */,
+				DA56F7652086DA46004A8F78 /* foxnews-com.png in Resources */,
+				DA56F7962086DA46004A8F78 /* mapquest-com.png in Resources */,
+				DA56F7842086DA46004A8F78 /* images-google-com.png in Resources */,
+				DA56F7DB2086DA46004A8F78 /* webmd-com.png in Resources */,
+				DA56F6ED2086DA46004A8F78 /* wikipedia-lo.xml in Resources */,
+				DA56F7502086DA46004A8F78 /* delta-com.png in Resources */,
+				DA56F7D82086DA46004A8F78 /* washingtonpost-com.png in Resources */,
+				DA56F7B12086DA46004A8F78 /* reddit-com.png in Resources */,
+				DA56F72D2086DA46004A8F78 /* allrecipes-com.png in Resources */,
+				DA56F66C2086DA46004A8F78 /* CharisSILR.ttf in Resources */,
+				DA56F7C22086DA46004A8F78 /* talkingpointsmemo-com.png in Resources */,
+				DA56F6C42086DA46004A8F78 /* wikipedia-be.xml in Resources */,
+				DA56F6A42086DA46004A8F78 /* heureka-cz.xml in Resources */,
+				DA56F72E2086DA46004A8F78 /* amazon-com.png in Resources */,
+				DA56F7D72086DA46004A8F78 /* walmart-com.png in Resources */,
+				DA56F6B32086DA46004A8F78 /* reta-vortaro.xml in Resources */,
+				DA56F6832086DA46004A8F78 /* qwant.xml in Resources */,
+				DA56F6FC2086DA46004A8F78 /* wikipedia-pl.xml in Resources */,
+				DA56F6CC2086DA46004A8F78 /* wikipedia-da.xml in Resources */,
+				DA56F7BB2086DA46004A8F78 /* stackoverflow-com.png in Resources */,
+				DA56F6AC2086DA46004A8F78 /* mercadolibre-mx.xml in Resources */,
+				DA56F69C2086DA46004A8F78 /* drae.xml in Resources */,
+				DA56F79A2086DA46004A8F78 /* mlb-com.png in Resources */,
+				DA56F7732086DA46004A8F78 /* google-drive.png in Resources */,
+				DA56F7CA2086DA46004A8F78 /* trulia-com.png in Resources */,
+				DA56F6B22086DA46004A8F78 /* rediff.xml in Resources */,
+				DA56F7AF2086DA46004A8F78 /* quora-com.png in Resources */,
+				DA56F7D12086DA46004A8F78 /* usbank-com.png in Resources */,
+				DA56F6C72086DA46004A8F78 /* wikipedia-br.xml in Resources */,
+				DA56F7A42086DA46004A8F78 /* nypost-com.png in Resources */,
+				DA56F6B52086DA46004A8F78 /* seznam-cz.xml in Resources */,
+				DA56F7DE2086DA46004A8F78 /* wikihow-com.png in Resources */,
+				DA56F6F52086DA46004A8F78 /* wikipedia-ne.xml in Resources */,
+				DA56F6FD2086DA46004A8F78 /* wikipedia-pt.xml in Resources */,
+				DA56F7AC2086DA46004A8F78 /* pinterest-com.png in Resources */,
+				DA56F6912086DA46004A8F78 /* azet-sk.xml in Resources */,
+				DA56F6D12086DA46004A8F78 /* wikipedia-es.xml in Resources */,
+				DA56F6782086DA46004A8F78 /* MainFrameAtDocumentEnd.js in Resources */,
+				DA56F7BD2086DA46004A8F78 /* strava-com.png in Resources */,
+				DA56F76A2086DA46004A8F78 /* gizmodo-com.png in Resources */,
+				DA56F74C2086DA46004A8F78 /* costco-com.png in Resources */,
+				DA56F7942086DA46004A8F78 /* lowes-com.png in Resources */,
+				DA56F7C82086DA46004A8F78 /* ticketmaster-com.png in Resources */,
+				DA56F6DC2086DA46004A8F78 /* wikipedia-gu.xml in Resources */,
+				DA56F6C22086DA46004A8F78 /* wikipedia-ast.xml in Resources */,
+				DA56F6CA2086DA46004A8F78 /* wikipedia-cy.xml in Resources */,
+				DA56F79E2086DA46004A8F78 /* netflix-com.png in Resources */,
+				DA56F7B62086DA46004A8F78 /* slickdeals-net.png in Resources */,
+				DA56F7AD2086DA46004A8F78 /* politico-com.png in Resources */,
+				DA56F6B42086DA46004A8F78 /* salidzinilv.xml in Resources */,
+				DA56F7402086DA46004A8F78 /* businessinsider-com.png in Resources */,
+				DA56F6642086DA46004A8F78 /* Licenses.html in Resources */,
+				DA56F7832086DA46004A8F78 /* ikea-com.png in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				DA56F7B72086DA46004A8F78 /* soundcloud-com.png in Resources */,
+				DA56F6E62086DA46004A8F78 /* wikipedia-it.xml in Resources */,
+				DA56F7E92086DA46004A8F78 /* zillow-com.png in Resources */,
+				DA56F6BB2086DA46004A8F78 /* tearma.xml in Resources */,
+				DA56F7E52086DA46004A8F78 /* xfinity-com.png in Resources */,
+				DA56F7052086DA46004A8F78 /* wikipedia-sv-SE.xml in Resources */,
+				DA56F6A52086DA46004A8F78 /* leit-is.xml in Resources */,
+				DA56F6F82086DA46004A8F78 /* wikipedia-NO.xml in Resources */,
+				DA56F7D32086DA46004A8F78 /* verizon-com.png in Resources */,
+				DA56F7972086DA46004A8F78 /* mashable-com.png in Resources */,
+				DA56F7AE2086DA46004A8F78 /* qq-com.png in Resources */,
+				DA56F6812086DA46004A8F78 /* bing.xml in Resources */,
+				DA56F7422086DA46004A8F78 /* buzzlie-com.png in Resources */,
+				DA56F7622086DA46004A8F78 /* flickr-com.png in Resources */,
+				DA56F6732086DA46004A8F78 /* FiraSans-Regular.ttf in Resources */,
+				DA56F6D62086DA46004A8F78 /* wikipedia-fr.xml in Resources */,
+				DA56F7012086DA46004A8F78 /* wikipedia-sk.xml in Resources */,
+				DA56F73A2086DA46004A8F78 /* bestbuy-com.png in Resources */,
+				DA56F7212086DA46004A8F78 /* replace.xml in Resources */,
+				DA56F7B52086DA46004A8F78 /* slate-com.png in Resources */,
+				DA56F7D22086DA46004A8F78 /* usps-com.png in Resources */,
+				DA56F7182086DA46004A8F78 /* yandex-market.xml in Resources */,
+				DA56F7712086DA46004A8F78 /* google-contacts.png in Resources */,
+				DA56F6672086DA46004A8F78 /* CertError.css in Resources */,
+				DA56F6932086DA46004A8F78 /* bing.xml in Resources */,
+				DA56F7702086DA46004A8F78 /* google-com.png in Resources */,
+				DA56F6A12086DA46004A8F78 /* google-nocodes.xml in Resources */,
+				DA56F71E2086DA46004A8F78 /* append.xml in Resources */,
+				DA56F78E2086DA46004A8F78 /* kayak-com.png in Resources */,
+				DA56F6F92086DA46004A8F78 /* wikipedia-oc.xml in Resources */,
+				DA56F7B92086DA46004A8F78 /* spotify-com.png in Resources */,
+				DA56F70F2086DA46004A8F78 /* wikipedia-zh-CN.xml in Resources */,
+				DA56F7932086DA46004A8F78 /* live-com.png in Resources */,
+				DA56F7CC2086DA46004A8F78 /* twitch-tv.png in Resources */,
+				DA56F6A62086DA46004A8F78 /* leo_ende_de.xml in Resources */,
+				DA56F6A82086DA46004A8F78 /* list.json in Resources */,
+				DA56F7C12086DA46004A8F78 /* taboola-com.png in Resources */,
+				DA56F6D02086DA46004A8F78 /* wikipedia-eo.xml in Resources */,
+				DA56F79B2086DA46004A8F78 /* mozilla-com.png in Resources */,
+				DA56F6692086DA46004A8F78 /* CharisSILB.ttf in Resources */,
+				DA56F7692086DA46004A8F78 /* github-com.png in Resources */,
+				DA56F7302086DA46004A8F78 /* americanexpress-com.png in Resources */,
+				DA56F7572086DA46004A8F78 /* ebates-com.png in Resources */,
+				DA56F7072086DA46004A8F78 /* wikipedia-te.xml in Resources */,
+				DA56F7582086DA46004A8F78 /* ebay-com.png in Resources */,
+				DA56F6702086DA46004A8F78 /* FiraSans-Italic.ttf in Resources */,
+				DA56F7682086DA46004A8F78 /* gfycat-com.png in Resources */,
+				DA56F7752086DA46004A8F78 /* google-gmail.png in Resources */,
+				DA56F7172086DA46004A8F78 /* yahoo-jp.xml in Resources */,
+				DA56F7462086DA46004A8F78 /* cbssports-com.png in Resources */,
+				DA56F75C2086DA46004A8F78 /* expedia-com.png in Resources */,
+				DA56F67B2086DA46004A8F78 /* NetError.html in Resources */,
+				DA56F70D2086DA46004A8F78 /* wikipedia-vi.xml in Resources */,
+				DA56F6B82086DA46004A8F78 /* sslv.xml in Resources */,
+				DA56F67E2086DA46004A8F78 /* run_tests.py in Resources */,
+				DA56F89F2086DB48004A8F78 /* QRCode.xcassets in Resources */,
+				DA56F7882086DA46004A8F78 /* instructure-com.png in Resources */,
+				DA56F6EF2086DA46004A8F78 /* wikipedia-ltg.xml in Resources */,
+				DA56F6DA2086DA46004A8F78 /* wikipedia-gl.xml in Resources */,
+				DA56F7032086DA46004A8F78 /* wikipedia-sq.xml in Resources */,
+				DA56F7E72086DA46004A8F78 /* yelp-com.png in Resources */,
+				DA56F6972086DA46004A8F78 /* coccoc.xml in Resources */,
+				DA56F77C2086DA46004A8F78 /* google-slides.png in Resources */,
+				DA56F7A12086DA46004A8F78 /* nih-gov.png in Resources */,
+				DA56F6B72086DA46004A8F78 /* slovnik-sk.xml in Resources */,
+				DA56F6852086DA46004A8F78 /* amazon-au.xml in Resources */,
+				DA56F66E2086DA46004A8F78 /* FiraSans-BoldItalic.ttf in Resources */,
+				DA56F7C72086DA46004A8F78 /* thesaurus-com.png in Resources */,
+				DA56F6662086DA46004A8F78 /* AllFramesAtDocumentStart.js in Resources */,
+				DA56F6902086DA46004A8F78 /* azerdict.xml in Resources */,
+				DA56F7162086DA46004A8F78 /* wiktionary-te.xml in Resources */,
+				DA56F7AB2086DA46004A8F78 /* people-com.png in Resources */,
+				DA56F7142086DA46004A8F78 /* wiktionary-or.xml in Resources */,
+				DA56F7492086DA46004A8F78 /* cnet-com.png in Resources */,
+				DA56F7BC2086DA46004A8F78 /* staples-com.png in Resources */,
+				DA56F8A32086DB48004A8F78 /* Settings.xcassets in Resources */,
+				DA56F6AB2086DA46004A8F78 /* mercadolibre-cl.xml in Resources */,
+				DA56F8A12086DB48004A8F78 /* Intro.xcassets in Resources */,
+				DA56F76F2086DA46004A8F78 /* google-calendar.png in Resources */,
+				DA56F7BF2086DA46004A8F78 /* swagbucks-com.png in Resources */,
+				DA56F6F62086DA46004A8F78 /* wikipedia-nl.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1057,7 +2724,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
