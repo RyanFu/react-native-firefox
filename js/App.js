@@ -7,9 +7,9 @@ import {
   Dimensions,
   Text,
   View,
-  TabBarIOS
+  Image
 } from 'react-native';
-import FirefoxTabbar from './common/Tabbar';
+import FirefoxTabbar from './common/tabbar/FirefoxTabbar';
 
 const window = Dimensions.get("window")
 
@@ -18,7 +18,9 @@ class App extends Component {
    return (
     <View style={style.container}>
       <FirefoxTabbar >
+        <FirefoxTabbar.Item icon={() => <Image source={{uri: 'nav-back'}} badge={() => <View style={{backgroundColor: 'red'}} />} />}>
 
+        </FirefoxTabbar.Item>
       </FirefoxTabbar>
     </View>
    )

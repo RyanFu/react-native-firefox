@@ -10,10 +10,14 @@ import {
 
 const window = Dimensions.get("window");
 
-export class FirefoxTabbar extends React.Component {
+export class Tabbar extends React.Component {
+    static propTypes = {
+        ...Animated.View.propTypes
+    }
+
     render() {
         return (
-            <Animated.View style={[style.tabbar, this.props.style]}>
+            <Animated.View {...this.props} style={[style.tabbar, this.props.style]}>
                 {this.props.children}
             </Animated.View>
         )
@@ -37,6 +41,6 @@ const style = StyleSheet.create({
     }
 });
 
-export default FirefoxTabbar;
+export default Tabbar;
 
 // more: `https://www.jianshu.com/p/7da2d6393a9f`
