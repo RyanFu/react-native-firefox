@@ -1,18 +1,16 @@
 'use strict';
 
 import React from 'react';
-import {
-    View
-} from 'react-native';
 import PropTypes from 'prop-types';
 
 export class TabbarItem extends React.Component {
     static propTypes = {
-        icon: PropTypes.func,
+        renderIcon: PropTypes.func,
+        renderBadge: PropTypes.func,
+        onPress: PropTypes.func,
         badgeText: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-        badge: PropTypes.func,
-        disable: PropTypes.bool,
-        onPress: PropTypes.func
+        disabled: PropTypes.bool,
+        highlight: PropTypes.bool
     }
 
     render() {

@@ -7,6 +7,7 @@ import {
     Dimensions,
     View
 } from 'react-native';
+import Layout from './Layout';
 
 const window = Dimensions.get("window");
 
@@ -17,25 +18,25 @@ export class Tabbar extends React.Component {
 
     render() {
         return (
-            <Animated.View {...this.props} style={[style.tabbar, this.props.style]}>
+            <Animated.View {...this.props} style={[styles.tabbar, this.props.style]}>
                 {this.props.children}
             </Animated.View>
         )
     }
 }
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
     tabbar: {
         position: 'absolute',
         bottom: 0,
         width: window.width,
-        height: 49,
+        height: Layout.tabBarHeight,
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#efefef',
         shadowColor: 'black',
-        shadowOffset: {width: 0, height: 0},
+        shadowOffset: { width: 0, height: 0 },
         shadowOpacity: 0.2,
         shadowRadius: 5
     }

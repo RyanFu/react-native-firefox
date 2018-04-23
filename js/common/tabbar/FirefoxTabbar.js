@@ -7,9 +7,11 @@ import {
     View
 } from 'react-native';
 import PropTypes from 'prop-types';
+import Badge from './Badge';
 import Tab from './Tab';
 import Tabbar from './Tabbar';
 import TabbarItem from './TabbarItem';
+import Layout from './Layout';
 
 export class FirefoxTabbar extends React.Component {
     constructor(props: Props) {
@@ -41,27 +43,28 @@ export class FirefoxTabbar extends React.Component {
     }
 
     renderTabbar(item, index) {
-        let icon, badge;
         if (item === null) {
             return;
         }
 
-        icon = item.props.icon();
+        let icon, badge;
 
-        if (item.props.badge) {
-            badge = item.props.badge();
+        icon = item.props.renderIcon();
+
+        if (item.props.renderBadge) {
+            badge = item.props.renderBadge();
         } else if (item.props.badgeText) {
-            // TODO:
+            badge = <Badge>{item.props.badgeText}</Badge>;
         }
 
         return (
-            <Tab testID={item.props.testID} badge={badge} onPress={item.props.onPress} style={{backgroundColor: 'red'}}>
+            <Tab testID={item.props.testID} badge={badge} onPress={item.props.onPress} style={styles.tab} disabled={item.props.disabled}>
                 {icon}
             </Tab>
         )
     }
 
-    render () {
+    render() {
         let { style, children, ...props } = this.props;
 
         React.Children.forEach(children, (item, index) => {
@@ -71,24 +74,24 @@ export class FirefoxTabbar extends React.Component {
             if (this.state.renderedSceneKeys.has(sceneKey)) {
                 return;
             };
-
-            
         });
 
         return (
-            <View {...props} style={[styles.container, style]}>
-                <Tabbar>
-                    {React.Children.map(children, this.renderTabbar)}
-                </Tabbar>
-            </View>
+            // <View {...props} style={[styles.container, style]}>
+            <Tabbar >
+                {React.Children.map(children, this.renderTabbar)}
+            </Tabbar>
+            // </View>
         )
     }
 }
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        backgroundColor: 'green'
+        flex: 1
+    },
+    tab: {
+        height: Layout.tabBarHeight
     }
 });
 

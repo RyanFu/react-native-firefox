@@ -7,12 +7,15 @@ import {
     TouchableOpacity
 } from 'react-native';
 import PropTypes from 'prop-types';
+import Layout from './Layout';
 
 export class Tab extends React.Component {
     static propTypes = {
         testID: PropTypes.string,
         badge: PropTypes.element,
-        onPress: PropTypes.bool
+        disabled: PropTypes.bool,
+        highlight: PropTypes.bool,
+        onPress: PropTypes.func,
     }
 
     constructor(props: Props) {
@@ -41,10 +44,12 @@ export class Tab extends React.Component {
 
         let style = [styles.container, this.props.style];
 
-        debugger
-
         return (
-            <TouchableOpacity testID={this.props.testID} onPress={this.handlePress} style={style}>
+            <TouchableOpacity
+                style={style}
+                testID={this.props.testID}
+                disabled={this.props.disabled}
+                onPress={this.handlePress}>
                 <View>{icon}{badge}</View>
             </TouchableOpacity>
         )
@@ -58,7 +63,10 @@ const styles = StyleSheet.create({
         right: -10
     },
     container: {
-
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center'
     }
 });
 
