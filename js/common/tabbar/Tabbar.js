@@ -5,7 +5,8 @@ import {
     Animated,
     StyleSheet,
     Dimensions,
-    View
+    View,
+    SafeAreaView
 } from 'react-native';
 import Layout from './Layout';
 
@@ -18,9 +19,9 @@ export class Tabbar extends React.Component {
 
     render() {
         return (
-            <Animated.View {...this.props} style={[styles.tabbar, this.props.style]}>
+            <SafeAreaView {...this.props} style={[styles.tabbar, this.props.style]}>
                 {this.props.children}
-            </Animated.View>
+            </SafeAreaView>
         )
     }
 }
@@ -30,7 +31,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         bottom: 0,
         width: window.width,
-        height: Layout.tabBarHeight,
+        // height: Layout.tabBarHeight,
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',

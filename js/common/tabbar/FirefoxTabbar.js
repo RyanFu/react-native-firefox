@@ -4,7 +4,8 @@ import { Set } from 'immutable'; // [immutable-js] `https://github.com/facebook/
 import React from 'react';
 import {
     StyleSheet,
-    View
+    View,
+    SafeAreaView
 } from 'react-native';
 import PropTypes from 'prop-types';
 import Badge from './Badge';
