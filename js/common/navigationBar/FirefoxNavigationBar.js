@@ -8,7 +8,8 @@ import {
     View
 } from 'react-native';
 const window = Dimensions.get("window");
-// import BackgroundSearchbar from './BackgroundSearchbar';
+
+import BackgroundSearchbar from './BackgroundSearchbar';
 // import ForegroundSearchbar from './ForegroundSearchbar';
 
 export class FirefoxNavigationBar extends React.Component {
@@ -16,7 +17,7 @@ export class FirefoxNavigationBar extends React.Component {
     render() {
         return (
             <Animated.View style={styles.container}>
-
+                <BackgroundSearchbar />
             </Animated.View >
         )
     }
@@ -24,10 +25,10 @@ export class FirefoxNavigationBar extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
+        flexDirection: 'row',
         width: window.width,
-        height: 44,
-        top: 0,
-        backgroundColor: 'green'
+        height: 49,
+        top: 0
     }
 });
 
