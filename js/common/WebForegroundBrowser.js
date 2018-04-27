@@ -22,11 +22,27 @@ function px2dp(px) {
 }
 
 class WebForegroundBrowser extends Component {
+    constructor(props: Props) {
+        super(props);
+
+        this.state = {
+
+        };
+
+        this.onWebviewScrollEvt = this.onWebviewScrollEvt.bind(this);
+    }
+
+    onWebviewScrollEvt(evt) {
+        let offsetY = evt.nativeEvent.contentOffset.y;
+        console.log(offsetY);
+    }
+
+
     render() {
         return (
             <View style={styles.container}>
                 <ForegroundNavbar style={styles.navigationbar} />
-                <WebView source={{ uri: 'https://www.google.com/' }} style={styles.webview} />
+                <WebView source={{ uri: 'https://www.baidu.com/' }} ref={c => (this._web = c)} style={styles.webview} onScroll={this.onWebviewScrollEvt} />
                 <FirefoxTabbar style={styles.tabbar}>
                     <FirefoxTabbar.Item disabled={false} renderIcon={() => <Icon name="md-arrow-round-back" size={px2dp(22)} color="#111" />} onPress={() => {
                         console.log('Click 0');
