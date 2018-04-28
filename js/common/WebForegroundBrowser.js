@@ -30,9 +30,9 @@ class WebForegroundBrowser extends Component {
         this.state = {
             isDragging: false,
             dragStartPosition: 0,
-            scrollDistance: 64,
+            scrollDistance: 50,
             percentHidden: 0,
-            navigationbarTransform: 0,
+            navigationbarTransform: new Animated.Value(0),
             tabbarTransform: 0
         };
 
@@ -45,22 +45,20 @@ class WebForegroundBrowser extends Component {
     // For more information: https://github.com/facebook/react-native/pull/18727
 
     onWillBeginDraggingEvt(evt) {
-        console.log('⬇️ 开始');
-
         let position = evt.nativeEvent.contentOffset.y + evt.nativeEvent.contentInset.top;
-        this.setState({ dragStartPosition: Math.max(position, 0), isDragging: true });
+        this.setState({ dragStartPosition: Math.max(position, 0.0), isDragging: true });
     }
 
     onScrollEvt(evt) {
-        console.log('🔴 滚动中...');
-
         let position = evt.nativeEvent.contentOffset.y + evt.nativeEvent.contentInset.top;
         if (position <= 0.0) {
             this.setPercentHiddenInteractive(0.0, false);
         } else if (this.state.isDragging) {
             if (position < this.state.scrollDistance) {
                 let newPercentHidden = position / this.state.scrollDistance;
-                this.setPercentHiddenInteractive(newPercentHidden, true);
+                if (newPercentHidden < this.state.percentHidden) {
+                    this.setPercentHiddenInteractive(newPercentHidden, true);
+                }
                 return;
             }
             if (this.state.percentHidden < 1.0) {
@@ -74,10 +72,8 @@ class WebForegroundBrowser extends Component {
     }
 
     onWillEndDraggingEvt(evt) {
-        console.log('⬆️ 结束');
-
         let position = evt.nativeEvent.targetContentOffset.y + evt.nativeEvent.contentInset.top;
-        let vilocity = evt.nativeEvent.velocity;
+        let vilocity = evt.nativeEvent.velocity.y;
         this.setState({ isDragging: false });
 
         let shouldHide = true;
@@ -101,22 +97,8 @@ class WebForegroundBrowser extends Component {
 
     update(interactive) {
         let percentHidden = this.state.percentHidden;
-        this.setState({ navigationbarTransform: -percentHidden * 64.0 })
-
-        // Animated.timing(this.state.navigationbarTransform, {
-        //     toValue: -percentHidden * 64.0
-        // }).start();
-
-        LayoutAnimation.configureNext({
-            duration: 300, //持续时间
-            create: { // 视图创建
-                type: LayoutAnimation.Types.linear,
-                // property: LayoutAnimation.Properties.scaleXY,// opacity、scaleXY
-            },
-            update: { // 视图更新
-                type: LayoutAnimation.Types.linear,
-            },
-        });
+        // this.setState({ navigationbarTransform: -percentHidden * 44.0 })
+        let transfrom = (1 - percentHidden) * 60 + 20;
 
         if (!interactive) { }
     }
@@ -124,8 +106,8 @@ class WebForegroundBrowser extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <ForegroundNavbar style={[styles.navigationbar, { top: this.state.navigationbarTransform }]} />
-                <WebView source={{ uri: 'https://www.baidu.com/' }} ref={c => (this._web = c)} style={[styles.webview, { top: this.state.navigationbarTransform }]} onScroll={this.onScrollEvt} onWillBeginDragging={this.onWillBeginDraggingEvt} onWillEndDragging={this.onWillEndDraggingEvt} />
+                <ForegroundNavbar style={[styles.navigationbar]} />
+                <WebView source={{ uri: 'https://www.google.com/' }} ref={c => (this._web = c)} style={styles.webview} onScroll={this.onScrollEvt} onWillBeginDragging={this.onWillBeginDraggingEvt} onWillEndDragging={this.onWillEndDraggingEvt} />
                 <FirefoxTabbar style={styles.tabbar}>
                     <FirefoxTabbar.Item disabled={false} renderIcon={() => <Icon name="md-arrow-round-back" size={px2dp(22)} color="#111" />} onPress={() => {
                         console.log('Click 0');
@@ -160,17 +142,12 @@ const styles = StyleSheet.create({
         backgroundColor: '#F5FCFF'
     },
     navigationbar: {
-        //position: 'absolute',
-        // top: -100,
-        backgroundColor: 'green'
+        backgroundColor: 'white'
     },
     webview: {
-
     },
     tabbar: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
+        position: 'relative'
     }
 });
 

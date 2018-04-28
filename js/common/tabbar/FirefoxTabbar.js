@@ -79,9 +79,9 @@ export class FirefoxTabbar extends React.Component {
 
         return (
             // <View {...props} style={[styles.container, style]}>
-            <Tabbar >
+            <Tabbar style={style}>
                 {React.Children.map(children, this.renderTabbar)}
-            </Tabbar>
+            </Tabbar >
             // </View>
         )
     }

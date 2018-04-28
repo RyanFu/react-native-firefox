@@ -38,11 +38,16 @@ export class ForegroundNavbar extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
+        // position: 'absolute',
         // flex: 1,
         flexDirection: 'row',
         // width: window.width,
         // height: 64,
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        shadowColor: 'black',
+        shadowOffset: { width: 0, height: 0 },
+        shadowOpacity: 0.2,
+        shadowRadius: 5
     },
     button: {
         flexDirection: 'row',
